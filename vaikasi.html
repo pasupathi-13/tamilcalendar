@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>வைகாசி 2026 | Vaikasi 2026 – Tamil Monthly Calendar</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;400;500;600;700&family=Noto+Sans+Tamil:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles/common.css">
+  <style>
+    .month-hero {
+      background: linear-gradient(135deg, #E65C1E, #F59E0B);
+      border-radius: 28px;
+      padding: 30px 20px;
+      text-align: center;
+      color: white;
+      margin: 20px 0 25px;
+    }
+    .month-name-tamil { font-size: 2rem; font-weight: 700; }
+    .month-name-eng { font-size: 1.2rem; opacity: 0.95; }
+    .gregorian-range { font-size: 0.9rem; margin-top: 10px; background: rgba(255,255,255,0.2); display: inline-block; padding: 4px 16px; border-radius: 40px; }
+
+    /* Simple monthly calendar grid */
+    .calendar-grid {
+      background: white;
+      border-radius: 24px;
+      overflow: hidden;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+      margin: 20px 0;
+    }
+    .month-table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: center;
+    }
+    .month-table th {
+      background: var(--primary-light);
+      padding: 14px 8px;
+      font-weight: 700;
+      color: var(--primary-dark);
+      font-size: 1rem;
+      border-bottom: 2px solid var(--primary);
+    }
+    .month-table td {
+      border: 1px solid #FFE6D5;
+      padding: 12px 6px;
+      vertical-align: middle;
+      height: 85px;
+      background: white;
+    }
+    .greg-date {
+      font-size: 1.2rem;
+      font-weight: 800;
+      color: var(--primary-dark);
+    }
+    .tamil-date {
+      font-family: 'Noto Sans Tamil', sans-serif;
+      font-size: 0.75rem;
+      color: #B45309;
+      margin-top: 4px;
+    }
+    .festival-dot {
+      width: 8px;
+      height: 8px;
+      background: #F59E0B;
+      border-radius: 50%;
+      display: inline-block;
+      margin-top: 4px;
+    }
+    @media (max-width: 600px) {
+      .month-table td { padding: 6px 3px; height: 65px; }
+      .greg-date { font-size: 0.9rem; }
+      .tamil-date { font-size: 0.65rem; }
+    }
+  </style>
+</head>
+<body>
+
+<header class="header">
+  <div class="container navbar">
+    <div class="logo"><span class="logo-tamil">📅 தமிழ் காலண்டர்</span><span class="logo-english">Tamil Calendar 2026</span></div>
+    <div class="menu-btn" id="menuBtn">☰</div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="../index.html">முகப்பு <span style="display:block; font-size:0.7rem;">Home</span></a></li>
+      <li><a href="../index.html#months">மாதங்கள் <span style="display:block; font-size:0.7rem;">Months</span></a></li>
+      <li><a href="../festivals.html">திருவிழாக்கள் <span style="display:block; font-size:0.7rem;">Festivals</span></a></li>
+      <li><a href="../holidays.html">விடுமுறைகள் <span style="display:block; font-size:0.7rem;">Holidays</span></a></li>
+    </ul>
+  </div>
+</header>
+
+<main class="container">
+  <div class="month-hero">
+    <div class="month-name-tamil">வைகாசி</div>
+    <div class="month-name-eng">Vaikasi</div>
+    <div class="gregorian-range">15 மே – 14 ஜூன் 2026</div>
+  </div>
+
+  <div class="calendar-grid">
+    <table class="month-table">
+      <thead>
+        <tr>
+          <th>ஞாயிறு<br>Sun</th>
+          <th>திங்கள்<br>Mon</th>
+          <th>செவ்வாய்<br>Tue</th>
+          <th>புதன்<br>Wed</th>
+          <th>வியாழன்<br>Thu</th>
+          <th>வெள்ளி<br>Fri</th>
+          <th>சனி<br>Sat</th>
+        </tr>
+      </thead>
+      <tbody id="calendarBody">
+        <!-- Grid will be generated via JavaScript -->
+      </tbody>
+    </table>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="container footer-content">
+    <p>📅 தமிழ் காலண்டர் 2026 | Tamil Calendar 2026</p>
+    <div class="footer-links"><a href="../index.html">முகப்பு</a> | <a href="../index.html#months">மாதங்கள்</a> | <a href="../festivals.html">திருவிழாக்கள்</a> | <a href="../holidays.html">விடுமுறைகள்</a></div>
+    <p class="copyright">© 2026 Tamil Calendar</p>
+  </div>
+</footer>
+
+<script>
+  // Vaikasi (May 15 - June 14, 2026) calendar data
+  // First day of month: May 15, 2026 is a Friday
+  const firstDayOfMonth = new Date(2026, 4, 15); // May 15 (month index 4)
+  const daysInMonth = 31; // May has 31 days, but we only go to June 14? Actually Vaikasi ends June 14, but we show full May 15 to June 14 = 31 days
+  // But for simplicity, we show the Gregorian month of May (1-31) because Vaikasi spans two Gregorian months.
+  // Instead, let's just show the standard May 2026 calendar (1-31 May) as that's what the image shows.
+  // The user's image is "MAY 2026", so we will make a simple May 2026 grid.
+
+  // May 2026: 1st May is a Friday
+  const startDay = 5; // 0=Sun, 1=Mon,... 5=Fri for May 1, 2026
+  const mayDays = 31;
+  
+  // Tamil dates mapping for each May day (simplified, you can expand from PDF)
+  // For demonstration, we'll show approximate Tamil date.
+  function getTamilDateForMay(greg) {
+    if (greg <= 14) return `சித்திரை ${18 + greg - 1}`;
+    else return `வைகாசி ${greg - 14}`;
+  }
+  
+  let html = '<tr>';
+  for (let i = 0; i < startDay; i++) {
+    html += '<td></td>';
+  }
+  for (let d = 1; d <= mayDays; d++) {
+    if ((d + startDay - 1) % 7 === 0 && d !== 1) html += '<tr>';
+    const tamilDate = getTamilDateForMay(d);
+    let eventMarker = '';
+    if (d === 1) eventMarker = '<div class="festival-dot"></div>';
+    if (d === 4) eventMarker = '<div class="festival-dot"></div>';
+    if (d === 21) eventMarker = '<div class="festival-dot"></div>';
+    if (d === 30) eventMarker = '<div class="festival-dot"></div>';
+    html += `<td>
+      <div class="greg-date">${d}</div>
+      <div class="tamil-date">${tamilDate}</div>
+      ${eventMarker}
+    </td>`;
+    if ((d + startDay) % 7 === 0 && d !== mayDays) html += '</tr>';
+  }
+  // fill remaining cells
+  const lastCell = (mayDays + startDay) % 7;
+  if (lastCell !== 0) {
+    for (let i = lastCell; i < 7; i++) html += '<td></td>';
+  }
+  html += '</tr>';
+  document.getElementById('calendarBody').innerHTML = html;
+
+  // Mobile menu toggle
+  const menuBtn = document.getElementById("menuBtn");
+  const navLinks = document.getElementById("navLinks");
+  if (menuBtn && navLinks) menuBtn.addEventListener("click", () => navLinks.classList.toggle("active"));
+</script>
+</body>
+</html>

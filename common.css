@@ -1,0 +1,289 @@
+/* ----------------------------------------------
+   GOOGLE FONTS & ROOT VARIABLES
+---------------------------------------------- */
+:root {
+  --primary: #E65C1E;
+  --primary-dark: #C2410C;
+  --primary-light: #FFEDD5;
+  --secondary: #F59E0B;
+  --bg: #FEF9F4;
+  --white: #FFFFFF;
+  --gray-100: #F3F4F6;
+  --gray-700: #374151;
+  --shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.08);
+  --radius-xl: 28px;
+  --radius-lg: 20px;
+  --radius-md: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', 'Noto Sans Tamil', sans-serif;
+  background: var(--bg);
+  color: #1F2937;
+  line-height: 1.5;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* ----------------------------------------------
+   HEADER & NAVIGATION
+---------------------------------------------- */
+.header {
+  background: rgba(255, 255, 255, 0.96);
+  backdrop-filter: blur(12px);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  padding: 12px 0;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.logo {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  font-weight: 700;
+}
+
+.logo-tamil {
+  font-size: 1.5rem;
+  color: var(--primary);
+}
+
+.logo-english {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--gray-700);
+  border-left: 2px solid #E5E7EB;
+  padding-left: 8px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #4B5563;
+  transition: 0.2s;
+  font-size: 0.95rem;
+  white-space: nowrap;
+}
+
+.nav-links a:hover {
+  color: var(--primary);
+}
+
+.menu-btn {
+  display: none;
+  background: var(--primary-light);
+  width: 44px;
+  height: 44px;
+  border-radius: 30px;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+  cursor: pointer;
+  color: var(--primary);
+}
+
+/* ----------------------------------------------
+   SECTION TITLES
+---------------------------------------------- */
+.section-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 28px;
+  position: relative;
+  display: inline-block;
+}
+
+.section-title:after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 60px;
+  height: 4px;
+  background: var(--primary);
+  border-radius: 4px;
+}
+
+/* ----------------------------------------------
+   GRID & CARDS
+---------------------------------------------- */
+.grid-4 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  padding: 22px 16px;
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.2s, box-shadow 0.2s;
+  text-align: center;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
+}
+
+.icon {
+  font-size: 2.2rem;
+  margin-bottom: 12px;
+}
+
+.card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 6px;
+}
+
+.card p {
+  font-size: 0.8rem;
+  color: #6B7280;
+}
+
+/* Month Grid */
+.month-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 18px;
+}
+
+.month-card {
+  background: white;
+  border-radius: var(--radius-md);
+  padding: 18px 12px;
+  text-align: center;
+  box-shadow: var(--shadow-sm);
+  transition: all 0.2s;
+}
+
+.month-card h3 {
+  color: var(--primary);
+  font-size: 1.2rem;
+}
+
+.month-link {
+  display: inline-block;
+  margin-top: 12px;
+  background: var(--primary-light);
+  padding: 6px 14px;
+  border-radius: 30px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--primary);
+  text-decoration: none;
+}
+
+/* Buttons */
+.btn-primary {
+  background: var(--primary);
+  color: white;
+  padding: 10px 24px;
+  border-radius: 50px;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+.btn-primary:hover {
+  background: var(--primary-dark);
+  transform: translateY(-2px);
+}
+
+/* ----------------------------------------------
+   FOOTER
+---------------------------------------------- */
+.footer {
+  background: #1F2937;
+  color: #E5E7EB;
+  padding: 40px 0 24px;
+  margin-top: 60px;
+  border-radius: 32px 32px 0 0;
+}
+
+.footer-content {
+  text-align: center;
+}
+
+.footer-links {
+  margin: 16px 0;
+}
+
+.footer-links a {
+  color: #D1D5DB;
+  margin: 0 8px;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.copyright {
+  font-size: 0.8rem;
+  opacity: 0.7;
+}
+
+/* ----------------------------------------------
+   RESPONSIVE (Mobile App-like UI)
+---------------------------------------------- */
+@media (max-width: 860px) {
+  .menu-btn {
+    display: flex;
+  }
+  .nav-links {
+    position: fixed;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background: white;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 20px;
+    gap: 20px;
+    box-shadow: 0 20px 25px -12px rgba(0,0,0,0.1);
+    transform: translateY(-120%);
+    transition: transform 0.3s ease;
+    z-index: 99;
+    border-bottom: 1px solid #F3F4F6;
+  }
+  .nav-links.active {
+    transform: translateY(0);
+  }
+  .logo-tamil { font-size: 1.3rem; }
+  .logo-english { font-size: 0.75rem; }
+  .section-title { font-size: 1.5rem; }
+  .grid-4 { gap: 14px; }
+}
+
+@media (max-width: 480px) {
+  .container { padding: 0 16px; }
+  .card { padding: 16px 12px; }
+  .month-card { padding: 14px 8px; }
+}

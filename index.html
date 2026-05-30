@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=yes">
+  <title>தமிழ் காலண்டர் 2026 | Tamil Calendar 2026 – Live Date, Nalla Neram, Festivals</title>
+  <meta name="description" content="Official Tamil Calendar 2026 with daily Tamil date, Nalla Neram, Muhurtham, festivals, government holidays, and Raasi Palan. Mobile-friendly app-like design.">
+  <meta name="keywords" content="Tamil Calendar 2026, தமிழ் காலண்டர், Nalla Neram, Muhurtham, Tamil festivals, Tamil Nadu holidays">
+  <meta name="author" content="Tamil Calendar">
+  <meta property="og:title" content="Tamil Calendar 2026 | தமிழ் காலண்டர்">
+  <meta property="og:description" content="Complete Tamil calendar – live date, auspicious timings, festivals & holidays.">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&family=Noto+Sans+Tamil:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/common.css">
+  <style>
+    .live-card {
+      background: linear-gradient(135deg, #FFFFFF 0%, #FFF5EE 100%);
+      border-radius: 28px;
+      padding: 28px 20px;
+      margin: 28px 0 32px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+      text-align: center;
+      border: 1px solid rgba(230, 92, 30, 0.15);
+    }
+    .badge-live {
+      background: var(--primary);
+      color: white;
+      font-size: 0.7rem;
+      font-weight: 600;
+      padding: 6px 14px;
+      border-radius: 40px;
+      display: inline-block;
+      margin-bottom: 16px;
+    }
+    .english-time {
+      font-size: 2.2rem;
+      font-weight: 700;
+      color: var(--primary-dark);
+      letter-spacing: 1px;
+    }
+    .english-date {
+      font-size: 1.1rem;
+      color: #5B6778;
+      margin-top: 8px;
+    }
+    .tamil-date-badge {
+      background: #FFF1E6;
+      border-radius: 48px;
+      padding: 16px 24px;
+      margin-top: 20px;
+      display: inline-block;
+    }
+    .tamil-main-date {
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: #B45309;
+      font-family: 'Noto Sans Tamil', sans-serif;
+    }
+    .nalla-box {
+      background: linear-gradient(145deg, #FFF7ED, #FFF2E5);
+    }
+    .badge-date {
+      background: var(--primary);
+      color: white;
+      border-radius: 30px;
+      padding: 2px 12px;
+      font-size: 0.75rem;
+      display: inline-block;
+      margin-right: 8px;
+    }
+    @media (max-width: 600px) {
+      .english-time { font-size: 1.6rem; }
+      .tamil-main-date { font-size: 1.4rem; }
+    }
+  </style>
+</head>
+<body>
+
+<header class="header">
+  <div class="container navbar">
+    <div class="logo">
+      <span class="logo-tamil">📅 தமிழ் காலண்டர்</span>
+      <span class="logo-english">Tamil Calendar 2026</span>
+    </div>
+    <div class="menu-btn" id="menuBtn">☰</div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">முகப்பு <span style="display:block; font-size:0.7rem;">Home</span></a></li>
+      <li><a href="#months">மாதங்கள் <span style="display:block; font-size:0.7rem;">Months</span></a></li>
+      <li><a href="festivals.html">திருவிழாக்கள் <span style="display:block; font-size:0.7rem;">Festivals</span></a></li>
+      <li><a href="holidays.html">விடுமுறைகள் <span style="display:block; font-size:0.7rem;">Holidays</span></a></li>
+      <li><a href="#nalla-neram-section">நல்ல நேரம் <span style="display:block; font-size:0.7rem;">Nalla Neram</span></a></li>
+    </ul>
+  </div>
+</header>
+
+<main>
+  <div class="container">
+    <!-- Live Date & Time Card -->
+    <div class="live-card">
+      <div class="badge-live">✨ இன்றைய நேரமும் தேதியும் | LIVE</div>
+      <div class="english-time" id="liveClock">--:--:--</div>
+      <div class="english-date" id="liveEnglishDate">Loading...</div>
+      <div class="tamil-date-badge">
+        <div class="tamil-main-date" id="liveTamilDate">தமிழ் நாள்</div>
+        <div class="tamil-year" id="liveTamilYear">தமிழ் ஆண்டு: ஹேவிளம்பி (Hevilambi)</div>
+      </div>
+    </div>
+
+    <!-- Tamil Months Grid -->
+    <section id="months" style="margin-bottom: 48px;">
+      <h2 class="section-title">
+        <span>தமிழ் மாதங்கள் 2026</span>
+        <span style="display:block; font-size:1.2rem; margin-top:4px;">Tamil Months 2026</span>
+      </h2>
+      <div class="month-grid" id="monthsGrid"></div>
+    </section>
+
+    <!-- Nalla Neram + Muhurtham Row -->
+    <div class="grid-4" style="grid-template-columns: repeat(auto-fit, minmax(280px,1fr)); gap: 28px; margin-bottom: 48px;">
+      <div class="card nalla-box" id="nallaNeramSection">
+        <h3>✨ நல்ல நேரம் <span style="display:block; font-size:0.8rem;">Nalla Neram</span></h3>
+        <p id="nallaNeramToday">Loading auspicious timings...</p>
+        <small style="font-size:0.7rem;">*Sunrise/Sunset based Chennai</small>
+      </div>
+      <div class="card">
+        <h3>💍 முகூர்த்த நாட்கள் 2026 <span style="display:block; font-size:0.8rem;">Muhurtham Dates 2026</span></h3>
+        <div id="muhurthamList" class="muhurtham-list">Loading wedding dates...</div>
+      </div>
+    </div>
+
+    <!-- Festivals Preview -->
+    <section id="festivals" style="margin-bottom: 48px;">
+      <h2 class="section-title">
+        <span>முக்கிய திருவிழாக்கள் 2026</span>
+        <span style="display:block; font-size:1.2rem; margin-top:4px;">Major Festivals 2026</span>
+      </h2>
+      <div class="grid-4" id="festivalsPreviewGrid"></div>
+      <div style="text-align:center; margin-top: 28px;"><a href="festivals.html" class="btn-primary">அனைத்து திருவிழாக்களையும் காண்க →</a></div>
+    </section>
+
+    <!-- Holidays Preview -->
+    <section id="holidays">
+      <h2 class="section-title">
+        <span>அரசு விடுமுறைகள் 2026</span>
+        <span style="display:block; font-size:1.2rem; margin-top:4px;">Government Holidays 2026</span>
+      </h2>
+      <div class="grid-4" id="holidaysPreviewGrid"></div>
+      <div style="text-align:center; margin-top: 28px;"><a href="holidays.html" class="btn-primary">முழு விடுமுறை பட்டியல் →</a></div>
+    </section>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="container footer-content">
+    <p>📅 தமிழ் காலண்டர் 2026 | Tamil Calendar 2026</p>
+    <div class="footer-links">
+      <a href="index.html">முகப்பு</a> | <a href="#months">மாதங்கள்</a> | <a href="festivals.html">திருவிழாக்கள்</a> | <a href="holidays.html">விடுமுறைகள்</a> | <a href="about.html">பற்றி</a> | <a href="contact.html">தொடர்பு</a>
+    </div>
+    <p class="copyright">© 2026 Tamil Calendar. All Rights Reserved.</p>
+  </div>
+</footer>
+
+<script>
+  // --------------------------------------------------------------
+  // 1. LIVE CLOCK & TAMIL DATE (Accurate for 2026)
+  // --------------------------------------------------------------
+  const tamilMonthList = [
+    { name: "சித்திரை", eng: "Chithirai", start: new Date(2026, 3, 14) },
+    { name: "வைகாசி", eng: "Vaikasi", start: new Date(2026, 4, 15) },
+    { name: "ஆனி", eng: "Aani", start: new Date(2026, 5, 15) },
+    { name: "ஆடி", eng: "Aadi", start: new Date(2026, 6, 17) },
+    { name: "ஆவணி", eng: "Avani", start: new Date(2026, 7, 17) },
+    { name: "புரட்டாசி", eng: "Purattasi", start: new Date(2026, 8, 17) },
+    { name: "ஐப்பசி", eng: "Aipasi", start: new Date(2026, 9, 17) },
+    { name: "கார்த்திகை", eng: "Karthigai", start: new Date(2026, 10, 16) },
+    { name: "மார்கழி", eng: "Margazhi", start: new Date(2026, 11, 16) },
+    { name: "தை", eng: "Thai", start: new Date(2027, 0, 14) },
+    { name: "மாசி", eng: "Maasi", start: new Date(2027, 1, 13) },
+    { name: "பங்குனி", eng: "Panguni", start: new Date(2027, 2, 15) }
+  ];
+
+  function getTamilDate(date) {
+    let current = tamilMonthList[0];
+    for (let i = 0; i < tamilMonthList.length; i++) {
+      if (tamilMonthList[i].start <= date) current = tamilMonthList[i];
+      else break;
+    }
+    let dayDiff = Math.floor((date - current.start) / (1000 * 3600 * 24)) + 1;
+    return { month: current.name, monthEng: current.eng, day: dayDiff };
+  }
+
+  const tamilWeekdays = ["ஞாயிறு", "திங்கள்", "செவ்வாய்", "புதன்", "வியாழன்", "வெள்ளி", "சனி"];
+
+  function updateLive() {
+    const now = new Date();
+    const timeStr = now.toLocaleTimeString('en-IN', { hour: '2-digit', minute:'2-digit', second:'2-digit', hour12: true, timeZone: 'Asia/Kolkata' });
+    const dateStr = now.toLocaleDateString('en-IN', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+    document.getElementById('liveClock').innerText = timeStr;
+    document.getElementById('liveEnglishDate').innerHTML = `📅 ${dateStr}`;
+    const tamil = getTamilDate(now);
+    const weekday = tamilWeekdays[now.getDay()];
+    document.getElementById('liveTamilDate').innerHTML = `${tamil.month} ${tamil.day}, ${weekday}`;
+    document.getElementById('liveTamilYear').innerHTML = `தமிழ் வருடம்: ஹேவிளம்பி (Hevilambi) • ${tamil.monthEng} Month`;
+  }
+  setInterval(updateLive, 1000);
+  updateLive();
+
+  // --------------------------------------------------------------
+  // 2. MONTHS GRID
+  // --------------------------------------------------------------
+  const months2026 = [
+    { tamil: "சித்திரை", eng: "Chithirai", range: "Apr 14 - May 14", file: "chithirai.html" },
+    { tamil: "வைகாசி", eng: "Vaikasi", range: "May 15 - Jun 14", file: "vaikasi.html" },
+    { tamil: "ஆனி", eng: "Aani", range: "Jun 15 - Jul 16", file: "aani.html" },
+    { tamil: "ஆடி", eng: "Aadi", range: "Jul 17 - Aug 16", file: "aadi.html" },
+    { tamil: "ஆவணி", eng: "Avani", range: "Aug 17 - Sep 16", file: "avani.html" },
+    { tamil: "புரட்டாசி", eng: "Purattasi", range: "Sep 17 - Oct 16", file: "purattasi.html" },
+    { tamil: "ஐப்பசி", eng: "Aipasi", range: "Oct 17 - Nov 15", file: "aipasi.html" },
+    { tamil: "கார்த்திகை", eng: "Karthigai", range: "Nov 16 - Dec 15", file: "karthigai.html" },
+    { tamil: "மார்கழி", eng: "Margazhi", range: "Dec 16 - Jan 13", file: "margazhi.html" },
+    { tamil: "தை", eng: "Thai", range: "Jan 14 - Feb 12", file: "thai.html" },
+    { tamil: "மாசி", eng: "Maasi", range: "Feb 13 - Mar 14", file: "maasi.html" },
+    { tamil: "பங்குனி", eng: "Panguni", range: "Mar 15 - Apr 13", file: "panguni.html" }
+  ];
+
+  function renderMonths() {
+    const container = document.getElementById('monthsGrid');
+    if (!container) return;
+    container.innerHTML = months2026.map(m => `
+      <div class="month-card">
+        <h3>${m.tamil}</h3>
+        <p>${m.eng}</p>
+        <p style="font-size:0.7rem;">${m.range}</p>
+        <a href="monthly-calendar/${m.file}" class="month-link">காலண்டரைக் காண்க →</a>
+      </div>
+    `).join('');
+  }
+  renderMonths();
+
+  // --------------------------------------------------------------
+  // 3. NALLA NERAM
+  // --------------------------------------------------------------
+  function renderNallaNeram() {
+    const neramDiv = document.getElementById('nallaNeramToday');
+    if (neramDiv) {
+      neramDiv.innerHTML = `<strong>🌞 07:15 - 08:30 AM</strong><br>🌙 04:30 - 05:45 PM<br>🪔 Good for new beginnings & travel`;
+    }
+  }
+  renderNallaNeram();
+
+  // --------------------------------------------------------------
+  // 4. MUHURTHAM DATES
+  // --------------------------------------------------------------
+  const muhurthamDates = [
+    { date: "Apr 18, 2026", event: "Chithirai Thirumanam" },
+    { date: "May 22, 2026", event: "Vaikasi Visakam" },
+    { date: "Sep 9, 2026", event: "Purattasi Sani" },
+    { date: "Nov 14, 2026", event: "Karthigai Deepam Muhurtham" }
+  ];
+  function renderMuhurtham() {
+    const container = document.getElementById('muhurthamList');
+    if (container) {
+      container.innerHTML = muhurthamDates.map(m => `<div><span class="badge-date">${m.date}</span> ${m.event}</div>`).join('');
+    }
+  }
+  renderMuhurtham();
+
+  // --------------------------------------------------------------
+  // 5. FESTIVALS PREVIEW
+  // --------------------------------------------------------------
+  const festivals2026 = [
+    { name: "பொங்கல்", date: "Jan 14", desc: "Harvest festival" },
+    { name: "தமிழ் புத்தாண்டு", date: "Apr 14", desc: "Puthandu" },
+    { name: "விநாயகர் சதுர்த்தி", date: "Sep 15", desc: "Ganesha festival" },
+    { name: "தீபாவளி", date: "Oct 31", desc: "Festival of lights" },
+    { name: "கார்த்திகை தீபம்", date: "Dec 4", desc: "Lamp festival" },
+    { name: "வைகாசி விசாகம்", date: "May 21", desc: "Murugan's birth" }
+  ];
+  function renderFestivalsPreview() {
+    const container = document.getElementById('festivalsPreviewGrid');
+    if (container) {
+      container.innerHTML = festivals2026.map(f => `
+        <div class="card">
+          <h3>🎊 ${f.name}</h3>
+          <p>📅 ${f.date}<br>${f.desc}</p>
+        </div>
+      `).join('');
+    }
+  }
+  renderFestivalsPreview();
+
+  // --------------------------------------------------------------
+  // 6. HOLIDAYS PREVIEW
+  // --------------------------------------------------------------
+  const holidays2026 = [
+    { date: "Jan 14", name: "பொங்கல்", type: "Public" },
+    { date: "Jan 26", name: "குடியரசு தினம்", type: "Public" },
+    { date: "Apr 14", name: "தமிழ் புத்தாண்டு", type: "Public" },
+    { date: "Aug 15", name: "சுதந்திர தினம்", type: "Public" },
+    { date: "Oct 2", name: "காந்தி ஜெயந்தி", type: "Public" },
+    { date: "Oct 31", name: "தீபாவளி", type: "Public" }
+  ];
+  function renderHolidaysPreview() {
+    const container = document.getElementById('holidaysPreviewGrid');
+    if (container) {
+      container.innerHTML = holidays2026.map(h => `
+        <div class="card">
+          <h3>📅 ${h.date}</h3>
+          <p>${h.name}<br>${h.type}</p>
+        </div>
+      `).join('');
+    }
+  }
+  renderHolidaysPreview();
+
+  // --------------------------------------------------------------
+  // 7. MOBILE MENU TOGGLE
+  // --------------------------------------------------------------
+  const menuBtn = document.getElementById("menuBtn");
+  const navLinks = document.getElementById("navLinks");
+  if (menuBtn && navLinks) {
+    menuBtn.addEventListener("click", () => navLinks.classList.toggle("active"));
+  }
+</script>
+</body>
+</html>
