@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>மாசி மாதம் 2026 | Maasi Month 2026 - Tamil Calendar</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+Tamil:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles/common.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="container navbar">
+    <div class="logo">
+      <span class="logo-tamil">📅 தமிழ் காலண்டர்</span>
+      <span class="logo-english">Tamil Calendar 2026</span>
+    </div>
+    <button class="menu-btn" id="menuBtn">☰</button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="../index.html">முகப்பு <span style="display:block; font-size:0.7rem;">Home</span></a></li>
+      <li><a href="../holidays.html">விடுமுறைகள் <span style="display:block; font-size:0.7rem;">Holidays</span></a></li>
+      <li><a href="../festivals.html">திருவிழாக்கள் <span style="display:block; font-size:0.7rem;">Festivals</span></a></li>
+      <li><a href="../about.html">பற்றி <span style="display:block; font-size:0.7rem;">About</span></a></li>
+      <li><a href="../contact.html">தொடர்பு <span style="display:block; font-size:0.7rem;">Contact</span></a></li>
+    </ul>
+  </div>
+</header>
+
+<main>
+  <div class="container">
+    <section style="padding: 4rem 0;">
+      <div class="month-nav">
+        <a href="thai.html" class="btn">← தை</a>
+        <h1 style="font-family:'Noto Sans Tamil', sans-serif; font-size:2.5rem; color:#e74c3c;">மாசி மாதம் 2026</h1>
+        <a href="panguni.html" class="btn">பங்குனி →</a>
+      </div>
+
+      <div style="text-align:center; margin-bottom: 2rem;">
+        <p style="font-size:1.2rem; color:#666;">Maasi Month 2026 (February 13 - March 14)</p>
+        <p style="font-size:1rem; color:#888;">தமிழ் ஆண்டு: ஹேவிளம்பி (Hevilambi)</p>
+      </div>
+
+      <div class="card" style="margin-bottom: 2rem;">
+        <h2 style="color:#264653; margin-bottom:1rem;">📅 மாசி மாத திருவிழாக்கள் | Maasi Festivals</h2>
+        <div class="grid-4" style="grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));">
+          <div style="padding:1rem; background:#f8f9fa; border-radius:8px;">
+            <h3 style="color:#e74c3c; font-size:1.1rem;">பிப்ரவரி 14</h3>
+            <p style="font-family:'Noto Sans Tamil', sans-serif; font-weight:bold;">வாலெண்டைன் தினம்</p>
+            <p style="font-size:0.9rem; color:#666;">Valentine's Day</p>
+          </div>
+          <div style="padding:1rem; background:#f8f9fa; border-radius:8px;">
+            <h3 style="color:#e74c3c; font-size:1.1rem;">மார்ச் 14</h3>
+            <p style="font-family:'Noto Sans Tamil', sans-serif; font-weight:bold;">ஹோலி</p>
+            <p style="font-size:0.9rem; color:#666;">Holi</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2 style="color:var(--dark); margin-bottom:1rem;">📆 மாசி மாத காலண்டர் | Maasi Calendar</h2>
+        <div class="calendar-grid" id="calendarGrid"></div>
+      </div>
+
+      <div style="margin-top: 2rem; text-align:center;">
+        <a href="../index.html" class="btn-primary">முகப்புக்குச் செல்லவும் →</a>
+      </div>
+    </section>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="container footer-content">
+    <p>📅 தமிழ் காலண்டர் 2026 | Tamil Calendar 2026</p>
+    <div class="footer-links">
+      <a href="../index.html">முகப்பு</a> | <a href="../holidays.html">விடுமுறைகள்</a> | <a href="../festivals.html">திருவிழாக்கள்</a> | <a href="../about.html">பற்றி</a> | <a href="../contact.html">தொடர்பு</a>
+    </div>
+    <p class="copyright">© 2026 Tamil Calendar. All Rights Reserved.</p>
+  </div>
+</footer>
+
+<script>
+  const menuBtn = document.getElementById("menuBtn");
+  const navLinks = document.getElementById("navLinks");
+  if (menuBtn && navLinks) {
+    menuBtn.addEventListener("click", () => navLinks.classList.toggle("active"));
+  }
+
+  // Calendar rendering for Maasi Month (February 13 - March 14, 2027)
+  function renderCalendar() {
+    const grid = document.getElementById('calendarGrid');
+    if (!grid) return;
+
+    const days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+    const festivals = {
+      'Feb 14': 'வாலெண்டைன்',
+      'Mar 14': 'ஹோலி'
+    };
+
+    let html = days.map(d => `<div class="calendar-day header">${d}</div>`).join('');
+
+    // February 13, 2027 is Saturday
+    const startOffset = 6;
+    for (let i = 0; i < startOffset; i++) {
+      html += '<div class="calendar-day"></div>';
+    }
+
+    for (let day = 13; day <= 28; day++) {
+      const tamilDay = day - 12;
+      const isFestival = festivals[`Feb ${day}`];
+      html += `<div class="calendar-day ${isFestival ? 'festival' : ''}">
+        <strong>${day}</strong><br>
+        <small>பிப்${tamilDay}</small>
+        ${isFestival ? `<br><small style="color:#fff;">${isFestival}</small>` : ''}
+      </div>`;
+    }
+
+    for (let day = 1; day <= 14; day++) {
+      const tamilDay = day + 16;
+      const isFestival = festivals[`Mar ${day}`];
+      html += `<div class="calendar-day ${isFestival ? 'festival' : ''}">
+        <strong>${day}</strong><br>
+        <small>மார்${tamilDay}</small>
+        ${isFestival ? `<br><small style="color:#fff;">${isFestival}</small>` : ''}
+      </div>`;
+    }
+
+    grid.innerHTML = html;
+  }
+  renderCalendar();
+</script>
+
+</body>
+</html>

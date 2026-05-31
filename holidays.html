@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>அரசு விடுமுறைகள் 2026 | Government Holidays 2026 - Tamil Calendar</title>
+  <meta name="description" content="Complete list of Tamil Nadu government holidays 2026 with dates and festival information.">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+Tamil:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/common.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="container navbar">
+    <div class="logo">
+      <span class="logo-tamil">📅 தமிழ் காலண்டர்</span>
+      <span class="logo-english">Tamil Calendar 2026</span>
+    </div>
+    <button class="menu-btn" id="menuBtn">☰</button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">முகப்பு <span style="display:block; font-size:0.7rem;">Home</span></a></li>
+      <li><a href="holidays.html">விடுமுறைகள் <span style="display:block; font-size:0.7rem;">Holidays</span></a></li>
+      <li><a href="festivals.html">திருவிழாக்கள் <span style="display:block; font-size:0.7rem;">Festivals</span></a></li>
+      <li><a href="about.html">பற்றி <span style="display:block; font-size:0.7rem;">About</span></a></li>
+      <li><a href="contact.html">தொடர்பு <span style="display:block; font-size:0.7rem;">Contact</span></a></li>
+    </ul>
+  </div>
+</header>
+
+<main>
+  <div class="container">
+    <section style="padding: 4rem 0;">
+      <h1 class="section-title">
+        அரசு விடுமுறைகள் 2026
+        <span style="display:block; font-size:1.2rem; margin-top:8px;">Government Holidays 2026</span>
+      </h1>
+      
+      <div style="text-align:center; margin-bottom: 2rem;">
+        <p style="font-size:1.1rem; color:#666;">தமிழ்நாடு அரசு விடுமுறை நாட்கள் - Tamil Nadu Government Holidays</p>
+      </div>
+
+      <div class="grid" id="holidaysGrid"></div>
+    </section>
+
+    <section style="padding: 2rem 0; background: #f8f9fa; border-radius: 12px; margin-bottom: 4rem;">
+      <h2 style="text-align:center; margin-bottom: 1.5rem;">📋 விடுமுறை வகைகள் | Holiday Types</h2>
+      <div class="grid-4" style="grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));">
+        <div class="card" style="text-align:center;">
+          <h3 style="color:#e63946;">🎉 பொது விடுமுறை</h3>
+          <p>Public Holidays</p>
+        </div>
+        <div class="card" style="text-align:center;">
+          <h3 style="color:#2a9d8f;">🏛️ அரசு விடுமுறை</h3>
+          <p>Government Holidays</p>
+        </div>
+        <div class="card" style="text-align:center;">
+          <h3 style="color:#f4a261;">🎊 திருவிழா விடுமுறை</h3>
+          <p>Festival Holidays</p>
+        </div>
+        <div class="card" style="text-align:center;">
+          <h3 style="color:#264653;">📅 விருப்ப விடுமுறை</h3>
+          <p>Optional Holidays</p>
+        </div>
+      </div>
+    </section>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="container footer-content">
+    <p>📅 தமிழ் காலண்டர் 2026 | Tamil Calendar 2026</p>
+    <div class="footer-links">
+      <a href="index.html">முகப்பு</a> | <a href="holidays.html">விடுமுறைகள்</a> | <a href="festivals.html">திருவிழாக்கள்</a> | <a href="about.html">பற்றி</a> | <a href="contact.html">தொடர்பு</a>
+    </div>
+    <p class="copyright">© 2026 Tamil Calendar. All Rights Reserved.</p>
+  </div>
+</footer>
+
+<script>
+  const holidays2026 = [
+    { date: "Jan 1", tamil: "ஆண்டுப் பிறப்பு", english: "New Year Day", type: "Public" },
+    { date: "Jan 14", tamil: "பொங்கல்", english: "Pongal", type: "Public" },
+    { date: "Jan 15", tamil: "மாட்டுப் பொங்கல்", english: "Mattu Pongal", type: "Public" },
+    { date: "Jan 16", tamil: "காஞ்சி பொங்கல்", english: "Kaanum Pongal", type: "Public" },
+    { date: "Jan 26", tamil: "குடியரசு தினம்", english: "Republic Day", type: "Public" },
+    { date: "Feb 14", tamil: "வாலெண்டைன் தினம்", english: "Valentine's Day", type: "Optional" },
+    { date: "Mar 14", tamil: "ஹோலி", english: "Holi", type: "Optional" },
+    { date: "Mar 25", tamil: "ராம நவமி", english: "Rama Navami", type: "Optional" },
+    { date: "Mar 30", tamil: "மகா விஷுவம்", english: "Ugadi/Telugu New Year", type: "Optional" },
+    { date: "Apr 14", tamil: "தமிழ் புத்தாண்டு", english: "Tamil New Year", type: "Public" },
+    { date: "Apr 14", tamil: "விசு", english: "Vishu", type: "Public" },
+    { date: "May 1", tamil: "மே தினம்", english: "May Day", type: "Public" },
+    { date: "May 21", tamil: "வைகாசி விசாகம்", english: "Vaikasi Visakam", type: "Optional" },
+    { date: "Jun 16", tamil: "இராமன் விழா", english: "Ramanavami", type: "Optional" },
+    { date: "Jul 17", tamil: "ஆடி மாதம் துவக்கம்", english: "Aadi Month Start", type: "Optional" },
+    { date: "Aug 15", tamil: "சுதந்திர தினம்", english: "Independence Day", type: "Public" },
+    { date: "Aug 19", tamil: "விநாயகர் சதுர்த்தி", english: "Vinayaka Chaturthi", type: "Public" },
+    { date: "Aug 31", tamil: "ஓணம்", english: "Onam", type: "Optional" },
+    { date: "Sep 9", tamil: "புரட்டாசி சனிக்கிழமை", english: "Purattasi Sani", type: "Optional" },
+    { date: "Sep 15", tamil: "விநாயகர் சதுர்த்தி", english: "Vinayaka Chaturthi", type: "Public" },
+    { date: "Oct 2", tamil: "காந்தி ஜெயந்தி", english: "Gandhi Jayanti", type: "Public" },
+    { date: "Oct 20", tamil: "தசரா", english: "Dussehra", type: "Public" },
+    { date: "Oct 31", tamil: "தீபாவளி", english: "Diwali", type: "Public" },
+    { date: "Nov 1", tamil: "கால்நடை தினம்", english: "Kaanum Pongal", type: "Optional" },
+    { date: "Nov 4", tamil: "கோவர்த்தன் பூஜை", english: "Govardhan Puja", type: "Optional" },
+    { date: "Nov 5", tamil: "பாய் தூ தூ", english: "Bhai Dooj", type: "Optional" },
+    { date: "Dec 4", tamil: "கார்த்திகை தீபம்", english: "Karthigai Deepam", type: "Public" },
+    { date: "Dec 25", tamil: "கிறிஸ்துமஸ்", english: "Christmas", type: "Public" }
+  ];
+
+  function renderHolidays() {
+    const container = document.getElementById('holidaysGrid');
+    if (container) {
+      container.innerHTML = holidays2026.map(h => `
+        <div class="card">
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1rem;">
+            <span style="font-size:1.5rem; font-weight:bold; color:#e63946;">${h.date}</span>
+            <span style="padding:4px 12px; border-radius:20px; font-size:0.8rem; background:${h.type === 'Public' ? '#e63946' : '#f4a261'}; color:white;">${h.type}</span>
+          </div>
+          <h3 style="font-family:'Noto Sans Tamil', sans-serif; font-size:1.3rem; margin-bottom:0.5rem;">${h.tamil}</h3>
+          <p style="color:#666;">${h.english}</p>
+        </div>
+      `).join('');
+    }
+  }
+  renderHolidays();
+
+  // Mobile menu toggle
+  const menuBtn = document.getElementById("menuBtn");
+  const navLinks = document.getElementById("navLinks");
+  if (menuBtn && navLinks) {
+    menuBtn.addEventListener("click", () => navLinks.classList.toggle("active"));
+  }
+</script>
+
+</body>
+</html>
