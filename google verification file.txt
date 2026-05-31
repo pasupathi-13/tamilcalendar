@@ -1,0 +1,7 @@
+google-site-verification: YOUR_GOOGLE_VERIFICATION_CODE_HERE
+
+# Instructions:
+# 1. Replace YOUR_GOOGLE_VERIFICATION_CODE_HERE with your actual Google Search Console verification code
+# 2. Rename this file to: googleXXXXXXXXXXXXXXXX.html (where XXXXXXXXXXXXXXXX is your verification code)
+# 3. Or use the meta tag method in your HTML head section:
+#    <meta name="google-site-verification" content="YOUR_VERIFICATION_CODE" />
