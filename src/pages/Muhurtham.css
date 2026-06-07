@@ -1,0 +1,141 @@
+:root {
+  --primary: #1E3A8A;
+  --primary-light: #DBEAFE;
+  --primary-dark: #1E40AF;
+  --bg-body: #F0F4FA;
+  --bg-card: #FFFFFF;
+  --border: #E2E8F0;
+  --text-primary: #1E293B;
+  --shadow-sm: 0 1px 2px rgba(0,0,0,0.05);
+  --radius-md: 20px;
+  --radius-sm: 12px;
+}
+
+.muhurtham-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px 20px;
+  background: var(--bg-body);
+  min-height: 100vh;
+}
+
+.muhurtham-container h1 {
+  text-align: center;
+  color: var(--primary);
+  font-size: 1.8rem;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  text-align: center;
+  color: #475569;
+  font-size: 0.9rem;
+  margin-bottom: 24px;
+}
+
+.filter-wrapper {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.filter-wrapper select {
+  padding: 10px 20px;
+  border-radius: 40px;
+  border: 1px solid var(--border);
+  background: var(--bg-card);
+  color: var(--primary);
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 100%;
+  max-width: 300px;
+}
+
+.month-group {
+  margin-bottom: 32px;
+}
+
+.month-group h2 {
+  background: var(--primary-light);
+  padding: 8px 16px;
+  border-radius: 40px;
+  color: var(--primary-dark);
+  font-size: 1.3rem;
+  margin-bottom: 16px;
+  display: inline-block;
+}
+
+.dates-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.muhurtham-card {
+  background: var(--bg-card);
+  border-radius: var(--radius-md);
+  padding: 16px 20px;
+  border-left: 5px solid var(--primary);
+  box-shadow: var(--shadow-sm);
+  transition: 0.2s;
+}
+
+.muhurtham-card:hover {
+  transform: translateX(4px);
+}
+
+.date-gregorian {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 6px;
+}
+
+.date-tamil {
+  font-size: 0.9rem;
+  color: var(--primary-dark);
+  background: var(--primary-light);
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 40px;
+}
+
+.no-dates {
+  text-align: center;
+  padding: 40px;
+  color: #7f8c8d;
+  font-size: 1rem;
+}
+
+.disclaimer {
+  background: #fff3e0;
+  border-left: 5px solid #e67e22;
+  padding: 16px;
+  border-radius: var(--radius-sm);
+  margin-top: 40px;
+  font-size: 0.85rem;
+  color: #5a3e1b;
+  line-height: 1.5;
+}
+
+.disclaimer strong {
+  color: #c0392b;
+}
+
+@media (max-width: 550px) {
+  .muhurtham-container {
+    padding: 16px;
+  }
+  .muhurtham-container h1 {
+    font-size: 1.4rem;
+  }
+  .filter-wrapper select {
+    max-width: 100%;
+  }
+  .month-group h2 {
+    font-size: 1.1rem;
+  }
+  .muhurtham-card {
+    padding: 12px 16px;
+  }
+}

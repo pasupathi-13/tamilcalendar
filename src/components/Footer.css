@@ -1,0 +1,26 @@
+.footer {
+  background: var(--bg-header-footer);
+  border-top: 1px solid #1E293B;
+  margin-top: 3rem;
+}
+.footer-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  color: #94A3B8;
+  font-size: 0.9rem;
+}
+.footer-links {
+  margin-top: 0.8rem;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+.footer-links a {
+  color: var(--primary-light);
+  text-decoration: none;
+}
+.footer-links a:hover {
+  text-decoration: underline;
+}

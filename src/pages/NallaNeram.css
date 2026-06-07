@@ -1,0 +1,184 @@
+:root {
+  --primary: #b45f06;
+  --primary-light: #f5e6d3;
+  --primary-dark: #8b5a2b;
+  --white: #ffffff;
+  --bg: #fff9f0;
+  --border: #e0cba0;
+  --text: #2c3e2f;
+  --shadow-sm: 0 2px 6px rgba(0, 0, 0, 0.05);
+  --radius-sm: 12px;
+  --radius-md: 20px;
+}
+
+.nalla-neram-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 24px 20px;
+  background: var(--bg);
+  min-height: 100vh;
+}
+
+.nalla-neram-container h1 {
+  text-align: center;
+  color: var(--primary);
+  font-size: 1.8rem;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  text-align: center;
+  color: var(--primary-dark);
+  font-size: 0.9rem;
+  margin-bottom: 24px;
+}
+
+.date-dropdown-single {
+  margin: 15px 0 20px;
+}
+
+.date-dropdown-single select {
+  width: 100%;
+  max-width: 320px;
+  padding: 12px 16px;
+  border-radius: 40px;
+  border: none;
+  background: var(--white);
+  color: var(--primary);
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  box-shadow: var(--shadow-sm);
+}
+
+.timings-card {
+  background: var(--white);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+  margin: 20px 0;
+  border: 1px solid var(--border);
+}
+
+.card-header {
+  background: var(--primary);
+  color: white;
+  padding: 16px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.card-header h2 {
+  font-size: 1.3rem;
+  margin: 0;
+}
+
+.weekday-badge {
+  background: rgba(255,255,255,0.2);
+  padding: 4px 12px;
+  border-radius: 40px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.timings-grid {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.timing-group {
+  background: var(--bg);
+  border-radius: var(--radius-sm);
+  padding: 12px;
+  border-left: 4px solid var(--primary);
+}
+
+.group-label {
+  font-weight: bold;
+  color: var(--primary-dark);
+  margin-bottom: 8px;
+  font-size: 1rem;
+}
+
+.sub-items {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 12px;
+}
+
+.timing-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 6px 0;
+  border-bottom: 1px dashed var(--border);
+}
+
+.timing-item:last-child {
+  border-bottom: none;
+}
+
+.timing-label {
+  font-weight: 600;
+  color: var(--primary-dark);
+  font-size: 0.9rem;
+  background: var(--primary-light);
+  padding: 4px 10px;
+  border-radius: 40px;
+}
+
+.timing-value {
+  font-size: 0.95rem;
+  color: var(--text);
+  font-weight: 500;
+  text-align: right;
+  word-break: break-word;
+}
+
+.footer-note {
+  text-align: center;
+  font-size: 0.8rem;
+  color: #7f8c8d;
+  margin-top: 24px;
+  padding: 12px;
+  background: var(--primary-light);
+  border-radius: var(--radius-sm);
+}
+
+@media (max-width: 550px) {
+  .nalla-neram-container {
+    padding: 16px;
+  }
+  .nalla-neram-container h1 {
+    font-size: 1.5rem;
+  }
+  .date-dropdown-single select {
+    max-width: 100%;
+    font-size: 0.9rem;
+  }
+  .timing-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+  }
+  .timing-value {
+    text-align: left;
+  }
+  .card-header h2 {
+    font-size: 1.1rem;
+  }
+  .group-label {
+    font-size: 0.9rem;
+  }
+}

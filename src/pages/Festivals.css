@@ -1,0 +1,157 @@
+.festivals-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px 16px;
+  background: var(--bg, #fff9f0);
+  min-height: 100vh;
+}
+
+.festivals-container h1 {
+  text-align: center;
+  color: var(--primary, #b45f06);
+  font-size: 1.8rem;
+  margin-bottom: 24px;
+}
+
+/* Filter buttons */
+.filter-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.filter-buttons button {
+  padding: 8px 20px;
+  border-radius: 40px;
+  border: none;
+  background: var(--white, white);
+  color: var(--primary, #b45f06);
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: 0.2s;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.filter-buttons button.active {
+  background: var(--primary, #b45f06);
+  color: white;
+}
+
+.filter-buttons button:active {
+  transform: scale(0.96);
+}
+
+/* Month group */
+.month-group {
+  margin-bottom: 32px;
+}
+
+.month-group h2 {
+  background: var(--primary-light, #f5e6d3);
+  padding: 8px 16px;
+  border-radius: 40px;
+  color: var(--primary-dark, #8b5a2b);
+  font-size: 1.2rem;
+  margin-bottom: 16px;
+  display: inline-block;
+}
+
+/* Festival cards */
+.festivals-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.festival-card {
+  background: var(--white, white);
+  border-radius: 20px;
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  border-left: 5px solid;
+  transition: 0.2s;
+}
+
+.festival-card.hindu {
+  border-left-color: #e67e22;
+}
+.festival-card.christian {
+  border-left-color: #3498db;
+}
+.festival-card.muslim {
+  border-left-color: #27ae60;
+}
+
+.festival-date {
+  font-size: 1.1rem;
+  font-weight: bold;
+  background: var(--bg, #fff9f0);
+  padding: 6px 12px;
+  border-radius: 30px;
+  min-width: 70px;
+  text-align: center;
+  color: var(--primary, #b45f06);
+}
+
+.festival-details {
+  flex: 1;
+}
+
+.festival-name {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #2c3e2f;
+  margin-bottom: 4px;
+}
+
+.festival-day {
+  font-size: 0.8rem;
+  color: #7f8c8d;
+}
+
+.festival-type-badge {
+  font-size: 0.7rem;
+  padding: 4px 8px;
+  border-radius: 20px;
+  background: var(--bg, #fff9f0);
+  color: var(--primary-dark, #8b5a2b);
+  white-space: nowrap;
+}
+
+/* No festivals message */
+.no-festivals {
+  text-align: center;
+  padding: 40px;
+  color: #999;
+  font-size: 1rem;
+}
+
+/* Mobile responsive */
+@media (max-width: 550px) {
+  .festivals-container {
+    padding: 16px;
+  }
+  .festivals-container h1 {
+    font-size: 1.5rem;
+  }
+  .filter-buttons button {
+    padding: 6px 14px;
+    font-size: 0.8rem;
+  }
+  .festival-card {
+    flex-wrap: wrap;
+  }
+  .festival-type-badge {
+    margin-left: auto;
+  }
+  .festival-date {
+    min-width: 60px;
+    font-size: 0.9rem;
+  }
+}

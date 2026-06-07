@@ -1,0 +1,10 @@
+.page-container { max-width: 900px; margin: 0 auto; }
+.calendar-grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 0.5rem; background: var(--bg-card); border-radius: 1.5rem; padding: 1rem; box-shadow: var(--shadow-md); }
+.calendar-weekday { text-align: center; font-weight: 700; color: var(--primary); padding: 0.5rem; }
+.calendar-day { text-align: center; padding: 0.8rem 0.3rem; border-radius: 0.8rem; background: white; position: relative; }
+.calendar-day:hover { background: var(--primary-light); }
+.day-number { font-size: 1rem; font-weight: 500; }
+.event-marker { display: block; font-size: 0.7rem; color: var(--primary); margin-top: 0.2rem; }
+.empty { background: #F8FAFC; }
+.note-card { margin-top: 1.5rem; background: #F1F5F9; padding: 0.8rem; border-radius: 1rem; text-align: center; }
+@media (max-width: 600px) { .calendar-grid { gap: 0.2rem; } .calendar-day { padding: 0.4rem 0.1rem; } .day-number { font-size: 0.8rem; } }

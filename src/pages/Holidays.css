@@ -1,0 +1,142 @@
+:root {
+  --primary: #b45f06;
+  --primary-light: #f5e6d3;
+  --primary-dark: #8b5a2b;
+  --white: #ffffff;
+  --bg: #fff9f0;
+  --border: #e0cba0;
+  --text: #2c3e2f;
+  --shadow-sm: 0 2px 6px rgba(0, 0, 0, 0.05);
+  --radius-sm: 12px;
+  --radius-md: 20px;
+}
+
+.holidays-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px 20px;
+  background: var(--bg);
+  min-height: 100vh;
+}
+
+.holidays-container h1 {
+  text-align: center;
+  color: var(--primary);
+  font-size: 1.8rem;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  text-align: center;
+  color: var(--primary-dark);
+  font-size: 0.9rem;
+  margin-bottom: 24px;
+}
+
+/* Filter dropdown */
+.filter-wrapper {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.filter-wrapper select {
+  padding: 10px 20px;
+  border-radius: 40px;
+  border: none;
+  background: var(--white);
+  color: var(--primary);
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: var(--shadow-sm);
+  width: 100%;
+  max-width: 280px;
+}
+
+/* Month group */
+.month-group {
+  margin-bottom: 32px;
+}
+
+.month-group h2 {
+  background: var(--primary-light);
+  padding: 8px 16px;
+  border-radius: 40px;
+  color: var(--primary-dark);
+  font-size: 1.3rem;
+  margin-bottom: 16px;
+  display: inline-block;
+}
+
+.holidays-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Holiday card */
+.holiday-card {
+  background: var(--white);
+  border-radius: var(--radius-md);
+  padding: 16px 20px;
+  border-left: 5px solid var(--primary);
+  box-shadow: var(--shadow-sm);
+  transition: 0.2s;
+}
+
+.holiday-card:hover {
+  transform: translateX(4px);
+}
+
+.holiday-date {
+  font-size: 0.9rem;
+  color: var(--primary-dark);
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.holiday-name-ta {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 4px;
+}
+
+.holiday-name-en {
+  font-size: 0.85rem;
+  color: #7f8c8d;
+}
+
+/* No holidays */
+.no-holidays {
+  text-align: center;
+  padding: 40px;
+  color: #7f8c8d;
+  font-size: 1rem;
+}
+
+/* Mobile responsive */
+@media (max-width: 550px) {
+  .holidays-container {
+    padding: 16px;
+  }
+  .holidays-container h1 {
+    font-size: 1.4rem;
+  }
+  .filter-wrapper select {
+    max-width: 100%;
+    font-size: 0.9rem;
+  }
+  .month-group h2 {
+    font-size: 1.1rem;
+  }
+  .holiday-card {
+    padding: 12px 16px;
+  }
+  .holiday-name-ta {
+    font-size: 1rem;
+  }
+  .holiday-name-en {
+    font-size: 0.75rem;
+  }
+}

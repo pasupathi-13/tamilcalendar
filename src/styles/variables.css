@@ -1,0 +1,136 @@
+/* ============================================
+   GLOBAL BLUE THEME – TAMIL CALENDAR APP
+   ============================================ */
+
+:root {
+  /* Primary brand colours – Blue Theme */
+  --primary: #1E3A8A;
+  --primary-dark: #1E40AF;
+  --primary-light: #DBEAFE;
+  
+  /* Backgrounds */
+  --bg-body: #F0F4FA;        /* very subtle blue */
+  --bg-card: #FFFFFF;
+  --bg-header-footer: #0F172A;
+  
+  /* Text colours */
+  --text-primary: #1E293B;
+  --text-secondary: #475569;
+  --text-light: #F8FAFC;
+  
+  /* Borders & Shadows */
+  --border: #E2E8F0;
+  --shadow-sm: 0 1px 2px rgba(0,0,0,0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0,0,0,0.1);
+  --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.1);
+  
+  /* Border radius (consistent) */
+  --radius-sm: 12px;
+  --radius-md: 20px;
+  --radius-lg: 28px;
+}
+
+/* Reset & base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg-body);
+  font-family: 'Segoe UI', Roboto, 'Noto Sans Tamil', system-ui, -apple-system, sans-serif;
+  color: var(--text-primary);
+  line-height: 1.5;
+}
+
+/* Main content area – ensures blue background */
+.main-content {
+  background: var(--bg-body);
+  min-height: calc(100vh - 140px); /* adjusts for header + footer */
+  padding: 1rem 0;
+}
+
+/* Container for all pages */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: var(--primary);
+  margin-bottom: 1rem;
+}
+
+/* Links */
+a {
+  color: var(--primary);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Utility classes */
+.text-center {
+  text-align: center;
+}
+.text-primary {
+  color: var(--primary);
+}
+.bg-card {
+  background: var(--bg-card);
+}
+.shadow-sm {
+  box-shadow: var(--shadow-sm);
+}
+.shadow-md {
+  box-shadow: var(--shadow-md);
+}
+
+/* Override any stray brown variables from local CSS files */
+/* This ensures that even if a page CSS file defines its own :root, 
+   the global blue variables take precedence for these properties */
+[class*="container"],
+[class*="calendar"],
+[class*="rasi"],
+[class*="timing"],
+[class*="festival"],
+[class*="holiday"],
+[class*="muhurtham"],
+[class*="chandrashtamam"] {
+  --primary: #1E3A8A !important;
+  --primary-light: #DBEAFE !important;
+  --primary-dark: #1E40AF !important;
+  --bg-body: #F0F4FA !important;
+  --bg-card: #FFFFFF !important;
+  --border: #E2E8F0 !important;
+  --text-primary: #1E293B !important;
+}
+
+/* Buttons global style (optional, but consistent) */
+button {
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+button:active {
+  transform: scale(0.97);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .main-content {
+    padding: 0.5rem 0;
+  }
+  .container {
+    padding: 0.75rem;
+  }
+  h1 {
+    font-size: 1.8rem;
+  }
+  h2 {
+    font-size: 1.4rem;
+  }
+}
