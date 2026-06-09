@@ -1,19 +1,183 @@
-.live-clock {
-  background: var(--bg-card);
-  padding: 0.6rem 1.2rem;
-  border-radius: 60px;
-  display: inline-flex;
-  gap: 1rem;
-  font-weight: 500;
-  border: 1px solid var(--border);
-  font-size: 0.9rem;
-  box-shadow: var(--shadow-sm);
-  color: var(--text-primary);
+/* LiveClock.css – larger images (180px) and bigger clock (260px) */
+
+.clock-with-images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  flex-wrap: wrap;
 }
-@media (max-width: 480px) {
-  .live-clock {
-    flex-direction: column;
-    gap: 0.3rem;
-    text-align: center;
+
+.clock-side-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 180px;
+}
+.deity-img {
+  width: 180px;
+  height: 180px;
+  object-fit: contain;    /* keeps original shape, no cropping */
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  transition: transform 0.2s;
+}
+.deity-img:hover {
+  transform: scale(1.05);
+}
+
+.clock-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.analog-clock-face {
+  position: relative;
+  width: 260px;           /* was 220px – bigger */
+  height: 260px;
+  border-radius: 50%;
+  background: #fef7e0;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Ticks – adjust positions slightly */
+.tick {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform-origin: 50% 50%;
+}
+.tick-line {
+  position: absolute;
+  top: 8px;               /* was 6px – move a bit inward for larger face */
+  left: 50%;
+  transform: translateX(-50%);
+}
+.tick-line.major {
+  width: 2.5px;
+  height: 14px;           /* a little taller */
+  background: #1e3a5f;
+  opacity: 0.6;
+}
+.tick-line.minor {
+  width: 1px;
+  height: 8px;
+  background: #64748b;
+  opacity: 0.4;
+}
+
+/* Numbers */
+.number-pos {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transform-origin: 50% 50%;
+}
+.clock-number {
+  display: inline-block;
+  margin-top: 18px;       /* adjusted for larger dial */
+  font-size: 1.2rem;      /* larger numbers */
+  font-weight: bold;
+  color: #1e3a5f;
+}
+
+/* Inner text “Tamil Calendar” */
+.text-inside {
+  position: absolute;
+  top: 24%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #1e3a5f;
+  font-family: 'Inter', sans-serif;
+  white-space: nowrap;
+  background: rgba(254,247,224,0.7);
+  padding: 2px 8px;
+  border-radius: 20px;
+  z-index: 1;
+}
+
+/* Hands – lengths increased */
+.hand {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  transform-origin: 50% 100%;
+  border-radius: 4px 4px 0 0;
+}
+.hour-hand {
+  width: 6px;
+  height: 68px;           /* longer */
+  background: #1e3a5f;
+  margin-left: -3px;
+  z-index: 3;
+}
+.minute-hand {
+  width: 4px;
+  height: 96px;
+  background: #334155;
+  margin-left: -2px;
+  z-index: 4;
+}
+.second-hand {
+  width: 2px;
+  height: 108px;
+  background: #e05a2a;
+  margin-left: -1px;
+  z-index: 5;
+}
+.center-pin {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 12px;
+  height: 12px;
+  background: #fef7e0;
+  border: 2.5px solid #e05a2a;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 6;
+}
+
+/* Digital info below clock */
+.digital-info {
+  text-align: center;
+  margin-top: 1.2rem;
+}
+.digital-time {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #1e3a5f;
+}
+.tamil-date-below {
+  font-size: 1.1rem;
+  color: #1e3a5f;
+  font-family: 'Noto Sans Tamil', sans-serif;
+  margin-top: 6px;
+}
+
+/* Hide images on mobile */
+@media (max-width: 767px) {
+  .clock-side-image {
+    display: none;
   }
+  .clock-with-images {
+    gap: 0;
+  }
+  /* On mobile, clock stays 260px – that's fine, but you can shrink if you want */
+  .analog-clock-face {
+    width: 220px;
+    height: 220px;
+  }
+  .hour-hand { height: 58px; }
+  .minute-hand { height: 82px; }
+  .second-hand { height: 92px; }
+  .clock-number { margin-top: 14px; font-size: 1rem; }
+  .text-inside { top: 22%; font-size: 0.65rem; }
+  .digital-time { font-size: 1.6rem; }
+  .tamil-date-below { font-size: 0.9rem; }
 }

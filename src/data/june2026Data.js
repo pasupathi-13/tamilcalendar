@@ -1,33 +1,28 @@
+// src/data/june2026Data.js
 export const june2026Data = [
-  // June 1
+  // 1 June 2026
   {
-    "gregorian_date": "01-06-2026",
-    "day_of_week": "Monday",
-    "tamil_year": "ஸ்ரீ பராபவ",
-    "tamil_month": "வைகாசி 18",
-    "islamic_date": "துல்ஹிஜ்ஜா 14",
-    "paksham": "கிருஷ்ண பட்சம் (தேய்பிறை)",
-    "nakshatram": "கேட்டை",
-    "thithi": "பிரதமை",
-    "astrological_details": {
-      "ayanam": "உத்தராயணம்",
-      "ruthu": "வசந்த ருது",
-      "kaalam": "இளவேனில் காலம்",
-      "saka_year": "1948 ஜ்யேஷ்டம் 11"
+    gregorian_date: "01-06-2026",
+    day_of_week: "Monday",
+    tamil_month: "வைகாசி",
+    tamil_year_name: "ஸ்ரீ பராபவ",
+    islamic_date: "துல்ஹிஜ்ஜா 14",
+    paksham: "கிருஷ்ண பட்சம்",
+    thithi: "பிரதமை (மா.04.44 வரை, பின்பு துவிதியை)",
+    nakshatram: "கேட்டை (மா.07.21 வரை, பின்பு மூலம்)",
+    yogam: "சித்த யோகம் (மா.07.21 மேல் அமிர்த யோகம்)",
+    shulam: "கிழக்கு",
+    pariharam: "தயிர்",
+    surya_udayam: "5.52",
+    chandrashtamam: ["பரணி", "கார்த்திகை"],
+    timings: {
+      good_time: "6.30-7.30 (காலை), 4.30-5.30 (மாலை)",
+      gowri_good_time: "9.30-10.30 (காலை), 7.30-8.30 (மாலை)",
+      raahu_kaalam: "07.30 - 09.00",
+      kuligai: "01.30 - 03.00",
+      emagandam: "10.30 - 12.00"
     },
-    "timings": {
-      "good_time": "6.30-7.30 / 9.30-10.30",
-      "gowri_good_time": "4.30-5.30 / 7.30-8.30",
-      "raahu_kaalam": "07.30",
-      "kuligai": "01.30",
-      "emagandam": "10.30",
-      "sunrise": "5.52"
-    },
-    "shoolam": "கிழக்கு",
-    "parihaaram": "தயிர்",
-    "chandrashtamam": ["பரணி", "கார்த்திகை"],
-    "daily_quote": "உன் அனுமதியின்றி உன்னை யாரும் துன்புறுத்த முடியாது",
-    "rasipalan": {
+    rasipalan: {
       "மேஷம்": "நன்மை",
       "ரிஷபம்": "தாமதம்",
       "மிதுனம்": "நிறைவு",
@@ -42,35 +37,29 @@ export const june2026Data = [
       "மீனம்": "ஓய்வு"
     }
   },
-  // June 2
+  // 2 June 2026
   {
-    "gregorian_date": "02-06-2026",
-    "day_of_week": "Tuesday",
-    "tamil_year": "ஸ்ரீ பராபவ",
-    "tamil_month": "வைகாசி 19",
-    "islamic_date": "துல்ஹிஜ்ஜா 15",
-    "paksham": "கிருஷ்ண பட்சம் (தேய்பிறை)",
-    "nakshatram": "மூலம்",
-    "thithi": "துவிதியை",
-    "astrological_details": {
-      "ayanam": "உத்தராயணம்",
-      "ruthu": "வசந்த ருது",
-      "kaalam": "இளவேனில் காலம்",
-      "saka_year": "1948 ஜ்யேஷ்டம் 12"
+    gregorian_date: "02-06-2026",
+    day_of_week: "Tuesday",
+    tamil_month: "வைகாசி",
+    tamil_year_name: "ஸ்ரீ பராபவ",
+    islamic_date: "துல்ஹிஜ்ஜா 15",
+    paksham: "கிருஷ்ண பட்சம்",
+    thithi: "துவிதியை (மா.06.39 வரை, பின்பு திரிதியை)",
+    nakshatram: "மூலம் (மா.09.53 வரை, பின்பு பூராடம்)",
+    yogam: "அமிர்த யோகம் (மா.09.53 மேல் சித்த யோகம்)",
+    shulam: "வடக்கு",
+    pariharam: "பால்",
+    surya_udayam: "5.52",
+    chandrashtamam: ["கார்த்திகை", "ரோகிணி"],
+    timings: {
+      good_time: "7.30-8.30 (காலை), 4.30-5.30 (மாலை)",
+      gowri_good_time: "10.30-11.30 (காலை), 7.30-8.30 (மாலை)",
+      raahu_kaalam: "03.00 - 04.30",
+      kuligai: "12.00 - 01.30",
+      emagandam: "09.00 - 10.30"
     },
-    "timings": {
-      "good_time": "7.30-8.30 / 10.30-11.30",
-      "gowri_good_time": "4.30-5.30 / 7.30-8.30",
-      "raahu_kaalam": "03.00",
-      "kuligai": "12.00",
-      "emagandam": "09.00",
-      "sunrise": "5.52"
-    },
-    "shoolam": "வடக்கு",
-    "parihaaram": "பால்",
-    "chandrashtamam": ["கார்த்திகை", "ரோகிணி"],
-    "daily_quote": "பிரார்த்தனை செய்வதைவிட மேலானது பொறுமை காப்பது",
-    "rasipalan": {
+    rasipalan: {
       "மேஷம்": "சாந்தம்",
       "ரிஷபம்": "வெற்றி",
       "மிதுனம்": "விருத்தி",
@@ -85,36 +74,29 @@ export const june2026Data = [
       "மீனம்": "பக்தி"
     }
   },
-  // June 3
+  // 3 June 2026
   {
-    "gregorian_date": "03-06-2026",
-    "day_of_week": "Wednesday",
-    "tamil_year": "ஸ்ரீ பராபவ",
-    "tamil_month": "வைகாசி 20",
-    "islamic_date": "துல்ஹிஜ்ஜா 16",
-    "paksham": "கிருஷ்ண பட்சம் (தேய்பிறை)",
-    "nakshatram": "பூராடம்",
-    "thithi": "திரிதியை",
-    "special_day": "கலைஞர் மு. கருணாநிதி பிறந்த நாள்",
-    "astrological_details": {
-      "ayanam": "உத்தராயணம்",
-      "ruthu": "வசந்த ருது",
-      "kaalam": "இளவேனில் காலம்",
-      "saka_year": "1948 ஜ்யேஷ்டம் 13"
+    gregorian_date: "03-06-2026",
+    day_of_week: "Wednesday",
+    tamil_month: "வைகாசி",
+    tamil_year_name: "ஸ்ரீ பராபவ",
+    islamic_date: "துல்ஹிஜ்ஜா 16",
+    paksham: "கிருஷ்ண பட்சம்",
+    thithi: "திரிதியை (மா.08.23 வரை, பின்பு சதுர்த்தி)",
+    nakshatram: "பூராடம் (நாள் முழுவதும்)",
+    yogam: "அமிர்த யோகம்",
+    shulam: "வடக்கு",
+    pariharam: "பால்",
+    surya_udayam: "5.52",
+    chandrashtamam: ["ரோகிணி", "மிருகசீருஷம்"],
+    timings: {
+      good_time: "9.30-10.30 (காலை), 4.30-5.30 (மாலை)",
+      gowri_good_time: "10.30-11.30 (காலை), 6.30-7.30 (மாலை)",
+      raahu_kaalam: "12.00 - 01.30",
+      kuligai: "10.30 - 12.00",
+      emagandam: "07.30 - 09.00"
     },
-    "timings": {
-      "good_time": "10.30-11.30 / 1.30-2.30",
-      "gowri_good_time": "4.30-5.30 / 6.30-7.30",
-      "raahu_kaalam": "12.00",
-      "kuligai": "12.00",
-      "emagandam": "10.30",
-      "sunrise": "5.52"
-    },
-    "shoolam": "வடக்கு",
-    "parihaaram": "பால்",
-    "chandrashtamam": ["ரோகிணி", "மிருகசீருஷம்"],
-    "daily_quote": "நீ சிரிக்கும் போதெல்லாம் உன் முடிவு தள்ளிப்போகிறது",
-    "rasipalan": {
+    rasipalan: {
       "மேஷம்": "பாராட்டு",
       "ரிஷபம்": "பரிவு",
       "மிதுனம்": "நன்மை",
@@ -122,43 +104,36 @@ export const june2026Data = [
       "சிம்மம்": "யோகம்",
       "கன்னி": "வரவு",
       "துலாம்": "நலம்",
-      "viru": "மேன்மை",
+      "விருச்சிகம்": "மேன்மை",
       "தனுசு": "சிந்தனை",
       "மகரம்": "கவனம்",
       "கும்பம்": "பெருமை",
       "மீனம்": "திறமை"
     }
   },
-  // June 4
+  // 4 June 2026
   {
-    "gregorian_date": "04-06-2026",
-    "day_of_week": "Thursday",
-    "tamil_year": "ஸ்ரீ பராபவ",
-    "tamil_month": "வைகாசி 21",
-    "islamic_date": "துல்ஹிஜ்ஜா 17",
-    "paksham": "கிருஷ்ண பட்சம் (தேய்பிறை)",
-    "nakshatram": "உத்திராடம்",
-    "thithi": "சதுர்த்தி",
-    "special_day": "சங்கடஹர சதுர்த்தி, சுபமுகூர்த்தம், வாஸ்து நாள்",
-    "astrological_details": {
-      "ayanam": "உத்தராயணம்",
-      "ruthu": "வசந்த ருது",
-      "kaalam": "இளவேனில் காலம்",
-      "saka_year": "1948 ஜ்யேஷ்டம் 14"
+    gregorian_date: "04-06-2026",
+    day_of_week: "Thursday",
+    tamil_month: "வைகாசி",
+    tamil_year_name: "ஸ்ரீ பராபவ",
+    islamic_date: "துல்ஹிஜ்ஜா 17",
+    paksham: "கிருஷ்ண பட்சம்",
+    thithi: "சதுர்த்தி (மா.09.46 வரை, பின்பு பஞ்சமி)",
+    nakshatram: "உத்திராடம் (கா.02.09 வரை, பின்பு திருவோணம்)",
+    yogam: "சித்த யோகம்",
+    shulam: "தெற்கு",
+    pariharam: "தைலம்",
+    surya_udayam: "5.52",
+    chandrashtamam: ["திருவாதிரை"],
+    timings: {
+      good_time: "10.30-11.30 (காலை), 12.30-1.30 (மதியம்)",
+      gowri_good_time: "11.30-12.30 (காலை), 6.30-7.30 (மாலை)",
+      raahu_kaalam: "01.30 - 03.00",
+      kuligai: "09.00 - 10.30",
+      emagandam: "06.00 - 07.30"
     },
-    "timings": {
-      "good_time": "10.30-11.30",
-      "gowri_good_time": "12.30-1.30 / 6.30-7.30",
-      "raahu_kaalam": "01.30",
-      "kuligai": "09.00",
-      "emagandam": "06.00",
-      "sunrise": "5.52"
-    },
-    "shoolam": "தெற்கு",
-    "parihaaram": "தைலம்",
-    "chandrashtamam": ["திருவாதிரை"],
-    "daily_quote": "உன் கோபம் உன்னை எரிக்குமே தவிர பிறரை தீண்டாது",
-    "rasipalan": {
+    rasipalan: {
       "மேஷம்": "ஆக்கம்",
       "ரிஷபம்": "நலம்",
       "மிதுனம்": "வெற்றி",
@@ -173,36 +148,29 @@ export const june2026Data = [
       "மீனம்": "பாராட்டு"
     }
   },
-  // June 5
+  // 5 June 2026
   {
-    "gregorian_date": "05-06-2026",
-    "day_of_week": "Friday",
-    "tamil_year": "ஸ்ரீ பராபவ",
-    "tamil_month": "வைகாசி 22",
-    "islamic_date": "துல்ஹிஜ்ஜா 18",
-    "paksham": "கிருஷ்ண பட்சம் (தேய்பிறை)",
-    "nakshatram": "திருவோணம்",
-    "thithi": "பஞ்சமி",
-    "special_day": "திருவோண விரதம்",
-    "astrological_details": {
-      "ayanam": "உத்தராயணம்",
-      "ruthu": "வசந்த ருது",
-      "kaalam": "இளவேனில் காலம்",
-      "saka_year": "1948 ஜ்யேஷ்டம் 15"
+    gregorian_date: "05-06-2026",
+    day_of_week: "Friday",
+    tamil_month: "வைகாசி",
+    tamil_year_name: "ஸ்ரீ பராபவ",
+    islamic_date: "துல்ஹிஜ்ஜா 18",
+    paksham: "கிருஷ்ண பட்சம்",
+    thithi: "பஞ்சமி (மா.10.45 வரை, பின்பு ஷஷ்டி)",
+    nakshatram: "திருவோணம் (கா.03.43 வரை, பின்பு அவிட்டம்)",
+    yogam: "மரண யோகம் (கா.03.43 வரை, மேல் சித்த யோகம்)",
+    shulam: "மேற்கு",
+    pariharam: "வெல்லம்",
+    surya_udayam: "5.52",
+    chandrashtamam: ["புனர்பூசம்"],
+    timings: {
+      good_time: "9.30-10.30 (காலை), 4.30-5.30 (மாலை)",
+      gowri_good_time: "12.30-1.30 (மதியம்), 6.30-7.30 (மாலை)",
+      raahu_kaalam: "10.30 - 12.00",
+      kuligai: "07.30 - 09.00",
+      emagandam: "03.00 - 04.30"
     },
-    "timings": {
-      "good_time": "9.30-10.30 / 12.30-1.30",
-      "gowri_good_time": "4.30-5.30 / 6.30-7.30",
-      "raahu_kaalam": "10.30",
-      "kuligai": "07.30",
-      "emagandam": "03.00",
-      "sunrise": "5.52"
-    },
-    "shoolam": "மேற்கு",
-    "parihaaram": "வெல்லம்",
-    "chandrashtamam": ["புனர்பூசம்"],
-    "daily_quote": "குனிந்து கொண்டே இருப்பவன் சுமந்து கொண்டே இருப்பான்",
-    "rasipalan": {
+    rasipalan: {
       "மேஷம்": "குழப்பம்",
       "ரிஷபம்": "இரக்கம்",
       "மிதுனம்": "சோர்வு",
@@ -211,42 +179,35 @@ export const june2026Data = [
       "கன்னி": "துணிவு",
       "துலாம்": "வேதனை",
       "விருச்சிகம்": "ஆதாயம்",
-      "தனுசு": "அனுகூலம்",
-      "மகரம்": "சினம்",
+      "தனுசு": "சினம்",
+      "மகரம்": "அனுகூலம்",
       "கும்பம்": "நன்மை",
       "மீனம்": "சுகம்"
     }
   },
-  // June 6
+  // 6 June 2026
   {
-    "gregorian_date": "06-06-2026",
-    "day_of_week": "Saturday",
-    "tamil_year": "ஸ்ரீ பராபவ",
-    "tamil_month": "வைகாசி 23",
-    "islamic_date": "துல்ஹிஜ்ஜா 19",
-    "paksham": "கிருஷ்ண பட்சம் (தேய்பிறை)",
-    "nakshatram": "அவிட்டம்",
-    "thithi": "ஷஷ்டி",
-    "special_day": "தேய்பிறை ஷஷ்டி விரதம்",
-    "astrological_details": {
-      "ayanam": "உத்தராயணம்",
-      "ruthu": "வசந்த ருது",
-      "kaalam": "இளவேனில் காலம்",
-      "saka_year": "1948 ஜ்யேஷ்டம் 16"
+    gregorian_date: "06-06-2026",
+    day_of_week: "Saturday",
+    tamil_month: "வைகாசி",
+    tamil_year_name: "ஸ்ரீ பராபவ",
+    islamic_date: "துல்ஹிஜ்ஜா 19",
+    paksham: "கிருஷ்ண பட்சம்",
+    thithi: "ஷஷ்டி (மா.11.14 வரை, பின்பு ஸப்தமி)",
+    nakshatram: "அவிட்டம் (கா.04.47 வரை, பின்பு சதயம்)",
+    yogam: "சித்த யோகம் (கா.04.47 வரை, மேல் அமிர்த யோகம்)",
+    shulam: "கிழக்கு",
+    pariharam: "தயிர்",
+    surya_udayam: "5.52",
+    chandrashtamam: ["பூசம்"],
+    timings: {
+      good_time: "10.30-11.30 (காலை), 4.30-5.30 (மாலை)",
+      gowri_good_time: "12.30-1.30 (மதியம்), 9.30-10.30 (காலை)",
+      raahu_kaalam: "09.00 - 10.30",
+      kuligai: "06.00 - 07.30",
+      emagandam: "01.30 - 03.00"
     },
-    "timings": {
-      "good_time": "10.30-11.30 / 12.30-1.30",
-      "gowri_good_time": "4.30-5.30 / 9.30-10.30",
-      "raahu_kaalam": "09.00",
-      "kuligai": "06.00",
-      "emagandam": "01.30",
-      "sunrise": "5.52"
-    },
-    "shoolam": "கிழக்கு",
-    "parihaaram": "தயிர்",
-    "chandrashtamam": ["பூசம்"],
-    "daily_quote": "முயன்று தோற்பது கௌரவம், முயலாமல் தோற்பது கேவலம்",
-    "rasipalan": {
+    rasipalan: {
       "மேஷம்": "முயற்சி",
       "ரிஷபம்": "சாந்தம்",
       "மிதுனம்": "பெருமை",
@@ -261,36 +222,29 @@ export const june2026Data = [
       "மீனம்": "தொல்லை"
     }
   },
-  // June 7
+  // 7 June 2026
   {
-    "gregorian_date": "07-06-2026",
-    "day_of_week": "Sunday",
-    "tamil_year": "ஸ்ரீ பராபவ",
-    "tamil_month": "வைகாசி 24",
-    "islamic_date": "துல்ஹிஜ்ஜா 20",
-    "paksham": "கிருஷ்ண பட்சம் (தேய்பிறை)",
-    "nakshatram": "சதயம்",
-    "thithi": "ஸப்தமி",
-    "special_day": "சுபமுகூர்த்தம்",
-    "astrological_details": {
-      "ayanam": "உத்தராயணம்",
-      "ruthu": "வசந்த ருது",
-      "kaalam": "இளவேனில் காலம்",
-      "saka_year": "1948 ஜ்யேஷ்டம் 17"
+    gregorian_date: "07-06-2026",
+    day_of_week: "Sunday",
+    tamil_month: "வைகாசி",
+    tamil_year_name: "ஸ்ரீ பராபவ",
+    islamic_date: "துல்ஹிஜ்ஜா 20",
+    paksham: "கிருஷ்ண பட்சம்",
+    thithi: "ஸப்தமி (மா.11.12 வரை, பின்பு அஷ்டமி)",
+    nakshatram: "சதயம் (கா.05.21 வரை, பின்பு பூரட்டாதி)",
+    yogam: "சித்த யோகம்",
+    shulam: "மேற்கு",
+    pariharam: "வெல்லம்",
+    surya_udayam: "5.52",
+    chandrashtamam: ["ஆயில்யம்"],
+    timings: {
+      good_time: "7.30-8.30 (காலை), 3.30-4.30 (மாலை)",
+      gowri_good_time: "10.30-11.30 (காலை), 1.30-2.30 (மதியம்)",
+      raahu_kaalam: "04.30 - 06.00",
+      kuligai: "03.00 - 04.30",
+      emagandam: "12.00 - 01.30"
     },
-    "timings": {
-      "good_time": "7.30-8.30 / 10.30-11.30",
-      "gowri_good_time": "3.30-4.30 / 1.30-2.30",
-      "raahu_kaalam": "04.30",
-      "kuligai": "03.00",
-      "emagandam": "12.00",
-      "sunrise": "5.52"
-    },
-    "shoolam": "மேற்கு",
-    "parihaaram": "வெல்லம்",
-    "chandrashtamam": ["ஆயில்யம்"],
-    "daily_quote": "உறவுக்கு உலகமாய் இரு, உறவே உலகமென இருக்காதே",
-    "rasipalan": {
+    rasipalan: {
       "மேஷம்": "நட்பு",
       "ரிஷபம்": "பயம்",
       "மிதுனம்": "பொறுமை",
@@ -305,35 +259,29 @@ export const june2026Data = [
       "மீனம்": "எதிர்ப்பு"
     }
   },
-  // June 8
+  // 8 June 2026
   {
-    "gregorian_date": "08-06-2026",
-    "day_of_week": "Monday",
-    "tamil_year": "ஸ்ரீ பராபவ",
-    "tamil_month": "வைகாசி 25",
-    "islamic_date": "துல்ஹிஜ்ஜா 21",
-    "paksham": "கிருஷ்ண பட்சம் (தேய்பிறை)",
-    "nakshatram": "பூரட்டாதி",
-    "thithi": "அஷ்டமி",
-    "astrological_details": {
-      "ayanam": "உத்தராயணம்",
-      "ruthu": "வசந்த ருது",
-      "kaalam": "இளவேனில் காலம்",
-      "saka_year": "1948 ஜ்யேஷ்டம் 18"
+    gregorian_date: "08-06-2026",
+    day_of_week: "Monday",
+    tamil_month: "வைகாசி",
+    tamil_year_name: "ஸ்ரீ பராபவ",
+    islamic_date: "துல்ஹிஜ்ஜா 21",
+    paksham: "கிருஷ்ண பட்சம்",
+    thithi: "அஷ்டமி (மா.10.40 வரை, பின்பு நவமி)",
+    nakshatram: "பூரட்டாதி (கா.05.25 வரை, பின்பு உத்திரட்டாதி)",
+    yogam: "சித்த யோகம்",
+    shulam: "கிழக்கு",
+    pariharam: "தயிர்",
+    surya_udayam: "5.52",
+    chandrashtamam: ["மகம்"],
+    timings: {
+      good_time: "6.30-7.30 (காலை), 4.30-5.30 (மாலை)",
+      gowri_good_time: "9.30-10.30 (காலை), 7.30-8.30 (மாலை)",
+      raahu_kaalam: "07.30 - 09.00",
+      kuligai: "01.30 - 03.00",
+      emagandam: "10.30 - 12.00"
     },
-    "timings": {
-      "good_time": "6.30-7.30 / 9.30-10.30",
-      "gowri_good_time": "4.30-5.30 / 7.30-8.30",
-      "raahu_kaalam": "07.30",
-      "kuligai": "01.30",
-      "emagandam": "10.30",
-      "sunrise": "5.52"
-    },
-    "shoolam": "கிழக்கு",
-    "parihaaram": "தயிர்",
-    "chandrashtamam": ["மகம்"],
-    "daily_quote": "எனக்கு மட்டுமே வேண்டும் என்பது பேராசை",
-    "rasipalan": {
+    rasipalan: {
       "மேஷம்": "தாமதம்",
       "ரிஷபம்": "ஆதாயம்",
       "மிதுனம்": "சிந்தனை",
@@ -348,35 +296,29 @@ export const june2026Data = [
       "மீனம்": "விருத்தி"
     }
   },
-  // June 9
+  // 9 June 2026
   {
-    "gregorian_date": "09-06-2026",
-    "day_of_week": "Tuesday",
-    "tamil_year": "ஸ்ரீ பராபவ",
-    "tamil_month": "வைகாசி 26",
-    "islamic_date": "துல்ஹிஜ்ஜா 22",
-    "paksham": "கிருஷ்ண பட்சம் (தேய்பிறை)",
-    "nakshatram": "உத்திரட்டாதி",
-    "thithi": "நவமி",
-    "astrological_details": {
-      "ayanam": "உத்தராயணம்",
-      "ruthu": "வசந்த ருது",
-      "kaalam": "இளவேனில் காலம்",
-      "saka_year": "1948 ஜ்யேஷ்டம் 19"
+    gregorian_date: "09-06-2026",
+    day_of_week: "Tuesday",
+    tamil_month: "வைகாசி",
+    tamil_year_name: "ஸ்ரீ பராபவ",
+    islamic_date: "துல்ஹிஜ்ஜா 22",
+    paksham: "கிருஷ்ண பட்சம்",
+    thithi: "நவமி (மா.09.40 வரை, பின்பு தசமி)",
+    nakshatram: "உத்திரட்டாதி (கா.05.02 வரை, பின்பு ரேவதி)",
+    yogam: "அமிர்த யோகம் (கா.05.02 வரை, மேல் சித்த யோகம்)",
+    shulam: "வடக்கு",
+    pariharam: "பால்",
+    surya_udayam: "5.52",
+    chandrashtamam: ["பூரம்"],
+    timings: {
+      good_time: "7.30-8.30 (காலை), 4.30-5.30 (மாலை)",
+      gowri_good_time: "10.30-11.30 (காலை), 7.30-8.30 (மாலை)",
+      raahu_kaalam: "03.00 - 04.30",
+      kuligai: "12.00 - 01.30",
+      emagandam: "09.00 - 10.30"
     },
-    "timings": {
-      "good_time": "7.30-8.30 / 10.30-11.30",
-      "gowri_good_time": "4.30-5.30 / 7.30-8.30",
-      "raahu_kaalam": "03.00",
-      "kuligai": "12.00",
-      "emagandam": "09.00",
-      "sunrise": "5.52"
-    },
-    "shoolam": "வடக்கு",
-    "parihaaram": "பால்",
-    "chandrashtamam": ["பூரம்"],
-    "daily_quote": "இன்பத்தை பங்கிட்டால் இரண்டாகும், துன்பம் பாதியாகும்",
-    "rasipalan": {
+    rasipalan: {
       "மேஷம்": "செலவு",
       "ரிஷபம்": "முயற்சி",
       "மிதுனம்": "புகழ்",
@@ -391,35 +333,29 @@ export const june2026Data = [
       "மீனம்": "ஓய்வு"
     }
   },
-  // June 10
+  // 10 June 2026
   {
-    "gregorian_date": "10-06-2026",
-    "day_of_week": "Wednesday",
-    "tamil_year": "ஸ்ரீ பராபவ",
-    "tamil_month": "வைகாசி 27",
-    "islamic_date": "துல்ஹிஜ்ஜா 23",
-    "paksham": "கிருஷ்ண பட்சம் (தேய்பிறை)",
-    "nakshatram": "ரேவதி",
-    "thithi": "தசமி",
-    "astrological_details": {
-      "ayanam": "உத்தராயணம்",
-      "ruthu": "வசந்த ருது",
-      "kaalam": "இளவேனில் காலம்",
-      "saka_year": "1948 ஜ்யேஷ்டம் 20"
+    gregorian_date: "10-06-2026",
+    day_of_week: "Wednesday",
+    tamil_month: "வைகாசி",
+    tamil_year_name: "ஸ்ரீ பராபவ",
+    islamic_date: "துல்ஹிஜ்ஜா 23",
+    paksham: "கிருஷ்ண பட்சம்",
+    thithi: "தசமி (மா.08.15 வரை, பின்பு ஏகாதசி)",
+    nakshatram: "ரேவதி (கா.04.14 வரை, பின்பு அசுவினி)",
+    yogam: "மரண யோகம்",
+    shulam: "வடக்கு",
+    pariharam: "பால்",
+    surya_udayam: "5.52",
+    chandrashtamam: ["உத்திரம்"],
+    timings: {
+      good_time: "9.30-10.30 (காலை), 1.30-2.30 (மதியம்)",
+      gowri_good_time: "10.30-11.30 (காலை), 6.30-7.30 (மாலை)",
+      raahu_kaalam: "12.00 - 01.30",
+      kuligai: "10.30 - 12.00",
+      emagandam: "07.30 - 09.00"
     },
-    "timings": {
-      "good_time": "9.30-10.30 / 10.30-11.30",
-      "gowri_good_time": "1.30-2.30 / 6.30-7.30",
-      "raahu_kaalam": "12.00",
-      "kuligai": "12.00",
-      "emagandam": "07.30",
-      "sunrise": "5.52"
-    },
-    "shoolam": "வடக்கு",
-    "parihaaram": "பால்",
-    "chandrashtamam": ["உத்திரம்"],
-    "daily_quote": "வாழும்போது தாங்குவோரெல்லாம் விழும்போது தூக்குவதில்லை",
-    "rasipalan": {
+    rasipalan: {
       "மேஷம்": "லாபம்",
       "ரிஷபம்": "பயம்",
       "மிதுனம்": "எதிர்ப்பு",
@@ -434,36 +370,29 @@ export const june2026Data = [
       "மீனம்": "சிக்கல்"
     }
   },
-  // June 11
+  // 11 June 2026
   {
-    "gregorian_date": "11-06-2026",
-    "day_of_week": "Thursday",
-    "tamil_year": "ஸ்ரீ பராபவ",
-    "tamil_month": "வைகாசி 28",
-    "islamic_date": "துல்ஹிஜ்ஜா 24",
-    "paksham": "கிருஷ்ண பட்சம் (தேய்பிறை)",
-    "nakshatram": "அசுபதி",
-    "thithi": "ஏகாதசி",
-    "special_day": "சர்வ ஏகாதசி",
-    "astrological_details": {
-      "ayanam": "உத்தராயணம்",
-      "ruthu": "வசந்த ருது",
-      "kaalam": "இளவேனில் காலம்",
-      "saka_year": "1948 ஜ்யேஷ்டம் 21"
+    gregorian_date: "11-06-2026",
+    day_of_week: "Thursday",
+    tamil_month: "வைகாசி",
+    tamil_year_name: "ஸ்ரீ பராபவ",
+    islamic_date: "துல்ஹிஜ்ஜா 24",
+    paksham: "கிருஷ்ண பட்சம்",
+    thithi: "ஏகாதசி (மா.06.29 வரை, பின்பு துவாதசி)",
+    nakshatram: "ரேவதி (கா.04.14 வரை, பின்பு அசுபதி)",
+    yogam: "அமிர்த யோகம் (கா.03.08 / கா.04.14 மேல் சித்த யோகம்)",
+    shulam: "தெற்கு",
+    pariharam: "தைலம்",
+    surya_udayam: "5.52",
+    chandrashtamam: ["ஹஸ்தம்"],
+    timings: {
+      good_time: "10.30-11.30 (காலை), 12.30-1.30 (மதியம்)",
+      gowri_good_time: "6.30-7.30 (மாலை)",
+      raahu_kaalam: "01.30 - 03.00",
+      kuligai: "09.00 - 10.30",
+      emagandam: "06.00 - 07.30"
     },
-    "timings": {
-      "good_time": "10.30-11.30",
-      "gowri_good_time": "12.30-1.30 / 6.30-7.30",
-      "raahu_kaalam": "01.30",
-      "kuligai": "09.00",
-      "emagandam": "06.00",
-      "sunrise": "5.52"
-    },
-    "shoolam": "தெற்கு",
-    "parihaaram": "தைலம்",
-    "chandrashtamam": ["ஹஸ்தம்"],
-    "daily_quote": "பணம் பேச துவங்கினால் உண்மை ஊமையாகிவிடும்",
-    "rasipalan": {
+    rasipalan: {
       "மேஷம்": "சுகம்",
       "ரிஷபம்": "எதிர்ப்பு",
       "மிதுனம்": "வெற்றி",
@@ -478,36 +407,29 @@ export const june2026Data = [
       "மீனம்": "பொறுமை"
     }
   },
-  // June 12
+  // 12 June 2026
   {
-    "gregorian_date": "12-06-2026",
-    "day_of_week": "Friday",
-    "tamil_year": "ஸ்ரீ பராபவ",
-    "tamil_month": "வைகாசி 29",
-    "islamic_date": "துல்ஹிஜ்ஜா 25",
-    "paksham": "கிருஷ்ண பட்சம் (தேய்பிறை)",
-    "nakshatram": "பரணி",
-    "thithi": "துவாதசி",
-    "special_day": "பிரதோஷம்",
-    "astrological_details": {
-      "ayanam": "உத்தராயணம்",
-      "ruthu": "வசந்த ருது",
-      "kaalam": "இளவேனில் காலம்",
-      "saka_year": "1948 ஜ்யேஷ்டம் 22"
+    gregorian_date: "12-06-2026",
+    day_of_week: "Friday",
+    tamil_month: "வைகாசி",
+    tamil_year_name: "ஸ்ரீ பராபவ",
+    islamic_date: "துல்ஹிஜ்ஜா 25",
+    paksham: "கிருஷ்ண பட்சம்",
+    thithi: "துவாதசி (மா.04.27 வரை, பின்பு திரயோதசி)",
+    nakshatram: "அசுபதி (கா.03.08 வரை, பின்பு பரணி)",
+    yogam: "சித்த யோகம்",
+    shulam: "மேற்கு",
+    pariharam: "வெல்லம்",
+    surya_udayam: "5.52",
+    chandrashtamam: ["ஹஸ்தம்", "சித்திரை"],
+    timings: {
+      good_time: "9.30-10.30 (காலை), 4.30-5.30 (மாலை)",
+      gowri_good_time: "6.30-7.30 (மாலை)",
+      raahu_kaalam: "10.30 - 12.00",
+      kuligai: "07.30 - 09.00",
+      emagandam: "03.00 - 04.30"
     },
-    "timings": {
-      "good_time": "9.30-10.30",
-      "gowri_good_time": "4.30-5.30 / 6.30-7.30",
-      "raahu_kaalam": "10.30",
-      "kuligai": "07.30",
-      "emagandam": "03.00",
-      "sunrise": "5.52"
-    },
-    "shoolam": "மேற்கு",
-    "parihaaram": "வெல்லம்",
-    "chandrashtamam": ["ஹஸ்தம்", "சித்திரை"],
-    "daily_quote": "முடியும் என நினை - முடிவு என நினைக்காதே",
-    "rasipalan": {
+    rasipalan: {
       "மேஷம்": "பெருமை",
       "ரிஷபம்": "சுகம்",
       "மிதுனம்": "வரவு",
@@ -522,36 +444,29 @@ export const june2026Data = [
       "மீனம்": "அசதி"
     }
   },
-  // June 13
+  // 13 June 2026
   {
-    "gregorian_date": "13-06-2026",
-    "day_of_week": "Saturday",
-    "tamil_year": "ஸ்ரீ பராபவ",
-    "tamil_month": "வைகாசி 30",
-    "islamic_date": "துல்ஹிஜ்ஜா 26",
-    "paksham": "கிருஷ்ண பட்சம் (தேய்பிறை)",
-    "nakshatram": "கார்த்திகை",
-    "thithi": "திரயோதசி",
-    "special_day": "கார்த்திகை விரதம், மாத சிவராத்திரி",
-    "astrological_details": {
-      "ayanam": "உத்தராயணம்",
-      "ruthu": "வசந்த ருது",
-      "kaalam": "இளவேனில் காலம்",
-      "saka_year": "1948 ஜ்யேஷ்டம் 23"
+    gregorian_date: "13-06-2026",
+    day_of_week: "Saturday",
+    tamil_month: "வைகாசி",
+    tamil_year_name: "ஸ்ரீ பராபவ",
+    islamic_date: "துல்ஹிஜ்ஜா 26",
+    paksham: "கிருஷ்ண பட்சம்",
+    thithi: "திரயோதசி (மா.02.12 வரை, பின்பு சதுர்த்தசி)",
+    nakshatram: "பரணி (கா.01.47 வரை, பின்பு கார்த்திகை)",
+    yogam: "அமிர்த யோகம்",
+    shulam: "கிழக்கு",
+    pariharam: "தயிர்",
+    surya_udayam: "5.52",
+    chandrashtamam: ["சித்திரை", "சுவாதி"],
+    timings: {
+      good_time: "7.30-8.30 (காலை), 4.30-5.30 (மாலை)",
+      gowri_good_time: "10.30-11.30 (காலை), 9.30-10.30 (காலை)",
+      raahu_kaalam: "09.00 - 10.30",
+      kuligai: "06.00 - 07.30",
+      emagandam: "01.30 - 03.00"
     },
-    "timings": {
-      "good_time": "7.30-8.30 / 10.30-11.30",
-      "gowri_good_time": "4.30-5.30 / 9.30-10.30",
-      "raahu_kaalam": "09.00",
-      "kuligai": "06.00",
-      "emagandam": "01.30",
-      "sunrise": "5.52"
-    },
-    "shoolam": "கிழக்கு",
-    "parihaaram": "தயிர்",
-    "chandrashtamam": ["சித்திரை", "சுவாதி"],
-    "daily_quote": "உனக்காக பொய் சொல்பவன், உன்னிடமும் பொய் சொல்வான்",
-    "rasipalan": {
+    rasipalan: {
       "மேஷம்": "நலம்",
       "ரிஷபம்": "ஓய்வு",
       "மிதுனம்": "செலவு",
@@ -566,36 +481,29 @@ export const june2026Data = [
       "மீனம்": "எதிர்ப்பு"
     }
   },
-  // June 14
+  // 14 June 2026
   {
-    "gregorian_date": "14-06-2026",
-    "day_of_week": "Sunday",
-    "tamil_year": "ஸ்ரீ பராபவ",
-    "tamil_month": "வைகாசி 31",
-    "islamic_date": "துல்ஹிஜ்ஜா 27",
-    "paksham": "கிருஷ்ண பட்சம் (தேய்பிறை)",
-    "nakshatram": "ரோகிணி",
-    "thithi": "அமாவாஸ்யை",
-    "special_day": "அமாவாஸ்யை",
-    "astrological_details": {
-      "ayanam": "உத்தராயணம்",
-      "ruthu": "வசந்த ருது",
-      "kaalam": "இளவேனில் காலம்",
-      "saka_year": "1948 ஜ்யேஷ்டம் 24"
+    gregorian_date: "14-06-2026",
+    day_of_week: "Sunday",
+    tamil_month: "வைகாசி",
+    tamil_year_name: "ஸ்ரீ பராபவ",
+    islamic_date: "துல்ஹிஜ்ஜா 27",
+    paksham: "கிருஷ்ண பட்சம்",
+    thithi: "சதுர்த்தசி (கா.11.49 வரை, பின்பு அமாவாசை)",
+    nakshatram: "கார்த்திகை (கா.12.15 வரை), ரோகிணி (மா.10.41 வரை, பின்பு மிருகசீருஷம்)",
+    yogam: "அமிர்த யோகம் (மா.10.41 மேல் சித்த யோகம்)",
+    shulam: "மேற்கு",
+    pariharam: "வெல்லம்",
+    surya_udayam: "5.53",
+    chandrashtamam: ["சுவாதி", "விசாகம்"],
+    timings: {
+      good_time: "7.30-8.30 (காலை), 2.00-3.00 (மதியம்)",
+      gowri_good_time: "10.30-11.30 (காலை), 1.30-2.30 (மதியம்)",
+      raahu_kaalam: "04.30 - 06.00",
+      kuligai: "03.00 - 04.30",
+      emagandam: "12.00 - 01.30"
     },
-    "timings": {
-      "good_time": "7.30-8.30 / 10.30-11.30",
-      "gowri_good_time": "2.00-3.00 / 1.30-2.30",
-      "raahu_kaalam": "04.30",
-      "kuligai": "03.00",
-      "emagandam": "12.00",
-      "sunrise": "5.53"
-    },
-    "shoolam": "மேற்கு",
-    "parihaaram": "வெல்லம்",
-    "chandrashtamam": ["சுவாதி", "விசாகம்"],
-    "daily_quote": "நிரந்தரம் என எதுவும் இல்லை, துன்பம் உட்பட",
-    "rasipalan": {
+    rasipalan: {
       "மேஷம்": "பக்தி",
       "ரிஷபம்": "முயற்சி",
       "மிதுனம்": "சாந்தம்",
@@ -610,36 +518,29 @@ export const june2026Data = [
       "மீனம்": "பயம்"
     }
   },
-  // June 15
+  // 15 June 2026
   {
-    "gregorian_date": "15-06-2026",
-    "day_of_week": "Monday",
-    "tamil_year": "ஸ்ரீ பராபவ",
-    "tamil_month": "ஆனி 01",
-    "islamic_date": "துல்ஹிஜ்ஜா 28",
-    "paksham": "சுக்ல பட்சம் (வளர்பிறை)",
-    "nakshatram": "மிருகசீருஷம்",
-    "thithi": "பிரதமை",
-    "special_day": "கரிநாள்",
-    "astrological_details": {
-      "ayanam": "உத்தராயணம்",
-      "ruthu": "கிரீஷ்ம ருது",
-      "kaalam": "முதுவேனில் காலம்",
-      "saka_year": "1948 ஜ்யேஷ்டம் 25"
+    gregorian_date: "15-06-2026",
+    day_of_week: "Monday",
+    tamil_month: "ஆனி",
+    tamil_year_name: "ஸ்ரீ பராபவ",
+    islamic_date: "துல்ஹிஜ்ஜா 28",
+    paksham: "சுக்ல பட்சம் (வளர்பிறை)",
+    thithi: "அமாவாசை (கா.09.27 வரை, பின்பு பிரதமை)",
+    nakshatram: "மிருகசீருஷம் (மா.09.05 வரை, பின்பு துவிதியை/திருவாதிரை)",
+    yogam: "அமிர்த யோகம் (மா.09.05 மேல் சித்த யோகம்)",
+    shulam: "கிழக்கு",
+    pariharam: "தயிர்",
+    surya_udayam: "5.54",
+    chandrashtamam: ["விசாகம்", "அனுஷம்"],
+    timings: {
+      good_time: "6.30-7.30 (காலை), 4.30-5.30 (மாலை)",
+      gowri_good_time: "9.30-10.30 (காலை), 7.30-8.30 (மாலை)",
+      raahu_kaalam: "07.30 - 09.00",
+      kuligai: "01.30 - 03.00",
+      emagandam: "10.30 - 12.00"
     },
-    "timings": {
-      "good_time": "6.30-7.30 / 9.30-10.30",
-      "gowri_good_time": "4.30-5.30 / 7.30-8.30",
-      "raahu_kaalam": "07.30",
-      "kuligai": "01.30",
-      "emagandam": "10.30",
-      "sunrise": "5.54"
-    },
-    "shoolam": "கிழக்கு",
-    "parihaaram": "தயிர்",
-    "chandrashtamam": ["விசாகம்", "அனுஷம்"],
-    "daily_quote": "அஞ்சாமை நெஞ்சில் வேண்டும். துஞ்சாமை கண்ணில் வேண்டும்",
-    "rasipalan": {
+    rasipalan: {
       "மேஷம்": "தேர்ச்சி",
       "ரிஷபம்": "பயம்",
       "மிதுனம்": "ஆர்வம்",
@@ -654,36 +555,29 @@ export const june2026Data = [
       "மீனம்": "அசதி"
     }
   },
-  // June 16
+  // 16 June 2026
   {
-    "gregorian_date": "16-06-2026",
-    "day_of_week": "Tuesday",
-    "tamil_year": "ஸ்ரீ பராபவ",
-    "tamil_month": "ஆனி 2",
-    "islamic_date": "துல்ஹிஜ்ஜா 29",
-    "paksham": "சுக்ல பட்சம் (வளர்பிறை)",
-    "nakshatram": "திருவாதிரை",
-    "thithi": "பிரதமை",
-    "special_day": "சந்திர தரிசனம்",
-    "astrological_details": {
-      "ayanam": "உத்தராயணம்",
-      "ruthu": "கிரீஷ்ம ருது",
-      "kaalam": "முதுவேனில் காலம்",
-      "saka_year": "1948 ஜ்யேஷ்டம் 26"
+    gregorian_date: "16-06-2026",
+    day_of_week: "Tuesday",
+    tamil_month: "ஆனி",
+    tamil_year_name: "ஸ்ரீ பராபவ",
+    islamic_date: "துல்ஹிஜ்ஜா 29",
+    paksham: "சுக்ல பட்சம் (வளர்பிறை)",
+    thithi: "பிரதமை (கா.06.55 வரை, பின்பு துவிதியை)",
+    nakshatram: "திருவாதிரை (மா.07.31 வரை, பின்பு புனர்பூசம்)",
+    yogam: "மரண யோகம் (மா.07.31 மேல் சித்த யோகம்)",
+    shulam: "வடக்கு",
+    pariharam: "பால்",
+    surya_udayam: "5.54",
+    chandrashtamam: ["அனுஷம்", "கேட்டை"],
+    timings: {
+      good_time: "10.30-11.30 (காலை), 4.30-5.30 (மாலை)",
+      gowri_good_time: "1.30-2.30 (மதியம்), 7.30-8.30 (மாலை)",
+      raahu_kaalam: "03.00 - 04.30",
+      kuligai: "12.00 - 01.30",
+      emagandam: "09.00 - 10.30"
     },
-    "timings": {
-      "good_time": "10.30-11.30 / 1.30-2.30",
-      "gowri_good_time": "4.30-5.30 / 7.30-8.30",
-      "raahu_kaalam": "03.00",
-      "kuligai": "12.00",
-      "emagandam": "09.00",
-      "sunrise": "5.54"
-    },
-    "shoolam": "வடக்கு",
-    "parihaaram": "பால்",
-    "chandrashtamam": ["அனுஷம்", "கேட்டை"],
-    "daily_quote": "உனக்கு தேவையான உதவி உன்னிடமே உள்ளது",
-    "rasipalan": {
+    rasipalan: {
       "மேஷம்": "உயர்வு",
       "ரிஷபம்": "தேர்ச்சி",
       "மிதுனம்": "ஆக்கம்",
@@ -698,36 +592,29 @@ export const june2026Data = [
       "மீனம்": "சோதனை"
     }
   },
-  // June 17
+  // 17 June 2026
   {
-    "gregorian_date": "17-06-2026",
-    "day_of_week": "Wednesday",
-    "tamil_year": "ஸ்ரீ பராபவ",
-    "tamil_month": "ஆனி 3",
-    "islamic_date": "முஹர்ரம் 1",
-    "paksham": "சுக்ல பட்சம் (வளர்பிறை)",
-    "nakshatram": "புனர்பூசம்",
-    "thithi": "துவிதியை",
-    "special_day": "சுபமுகூர்த்தம், ரம்பாத் திரிதியை, ஹிஜிரி வருடப் பிறப்பு",
-    "astrological_details": {
-      "ayanam": "உத்தராயணம்",
-      "ruthu": "கிரீஷ்ம ருது",
-      "kaalam": "முதுவேனில் காலம்",
-      "saka_year": "1948 ஜ்யேஷ்டம் 27"
+    gregorian_date: "17-06-2026",
+    day_of_week: "Wednesday",
+    tamil_month: "ஆனி",
+    tamil_year_name: "ஸ்ரீ பராபவ",
+    islamic_date: "முஹர்ரம் 1",
+    paksham: "சுக்ல பட்சம் (வளர்பிறை)",
+    thithi: "துவிதியை (கா.03.30 வரை, பின்பு திரிதியை)",
+    nakshatram: "புனர்பூசம் (மா.06.06 வரை, பின்பு பூசம்)",
+    yogam: "சித்த யோகம்",
+    shulam: "வடக்கு",
+    pariharam: "பால்",
+    surya_udayam: "5.54",
+    chandrashtamam: ["கேட்டை", "மூலம்"],
+    timings: {
+      good_time: "9.30-10.30 (காலை), 4.30-5.30 (மாலை)",
+      gowri_good_time: "10.30-11.30 (காலை), 6.30-7.30 (மாலை)",
+      raahu_kaalam: "12.00 - 01.30",
+      kuligai: "10.30 - 12.00",
+      emagandam: "07.30 - 09.00"
     },
-    "timings": {
-      "good_time": "9.30-10.30 / 10.30-11.30",
-      "gowri_good_time": "4.30-5.30 / 6.30-7.30",
-      "raahu_kaalam": "12.00",
-      "kuligai": "12.00",
-      "emagandam": "10.30",
-      "sunrise": "5.54"
-    },
-    "shoolam": "வடக்கு",
-    "parihaaram": "பால்",
-    "chandrashtamam": ["கேட்டை", "மூலம்"],
-    "daily_quote": "யாரையும் திருத்தமுடியாது. உன்னை நீ திருத்திக்கொள்",
-    "rasipalan": {
+    rasipalan: {
       "மேஷம்": "அலைச்சல்",
       "ரிஷபம்": "நிம்மதி",
       "மிதுனம்": "நன்மை",
@@ -742,36 +629,29 @@ export const june2026Data = [
       "மீனம்": "சிந்தனை"
     }
   },
-  // June 18
+  // 18 June 2026
   {
-    "gregorian_date": "18-06-2026",
-    "day_of_week": "Thursday",
-    "tamil_year": "ஸ்ரீ பராபவ",
-    "tamil_month": "ஆனி 4",
-    "islamic_date": "முஹர்ரம் 2",
-    "paksham": "சுக்ல பட்சம் (வளர்பிறை)",
-    "nakshatram": "பூசம்",
-    "thithi": "திரிதியை",
-    "special_day": "சுபமுகூர்த்தம், சதுர்த்தி விரதம்",
-    "astrological_details": {
-      "ayanam": "உத்தராயணம்",
-      "ruthu": "கிரீஷ்ம ருது",
-      "kaalam": "முதுவேனில் காலம்",
-      "saka_year": "1948 ஜ்யேஷ்டம் 28"
+    gregorian_date: "18-06-2026",
+    day_of_week: "Thursday",
+    tamil_month: "ஆனி",
+    tamil_year_name: "ஸ்ரீ பராபவ",
+    islamic_date: "முஹர்ரம் 2",
+    paksham: "சுக்ல பட்சம் (வளர்பிறை)",
+    thithi: "திரிதியை (கா.02.33 வரை, பின்பு சதுர்த்தி)",
+    nakshatram: "பூசம் (மா.04.52 வரை, பின்பு ஆயில்யம்)",
+    yogam: "அமிர்த யோகம் (மா.04.52 மேல் சித்த யோகம்)",
+    shulam: "தெற்கு",
+    pariharam: "தைலம்",
+    surya_udayam: "5.54",
+    chandrashtamam: ["மூலம்", "பூராடம்"],
+    timings: {
+      good_time: "10.30-11.30 (காலை), 12.30-1.30 (மதியம்)",
+      gowri_good_time: "6.30-7.30 (மாலை)",
+      raahu_kaalam: "01.30 - 03.00",
+      kuligai: "09.00 - 10.30",
+      emagandam: "06.00 - 07.30"
     },
-    "timings": {
-      "good_time": "10.30-11.30",
-      "gowri_good_time": "12.30-1.30 / 6.30-7.30",
-      "raahu_kaalam": "01.30",
-      "kuligai": "09.00",
-      "emagandam": "06.00",
-      "sunrise": "5.54"
-    },
-    "shoolam": "தெற்கு",
-    "parihaaram": "தைலம்",
-    "chandrashtamam": ["மூலம்", "பூராடம்"],
-    "daily_quote": "கோபத்தை கட்டுப்படுத்துபவனே உண்மையான வீரன்",
-    "rasipalan": {
+    rasipalan: {
       "மேஷம்": "பாராட்டு",
       "ரிஷபம்": "சினம்",
       "மிதுனம்": "வரவு",
@@ -786,35 +666,29 @@ export const june2026Data = [
       "மீனம்": "உதவி"
     }
   },
-  // June 19
+  // 19 June 2026
   {
-    "gregorian_date": "19-06-2026",
-    "day_of_week": "Friday",
-    "tamil_year": "ஸ்ரீ பராபவ",
-    "tamil_month": "ஆனி 5",
-    "islamic_date": "முஹர்ரம் 3",
-    "paksham": "சுக்ல பட்சம் (வளர்பிறை)",
-    "nakshatram": "ஆயில்யம்",
-    "thithi": "சதுர்த்தி",
-    "astrological_details": {
-      "ayanam": "உத்தராயணம்",
-      "ruthu": "கிரீஷ்ம ருது",
-      "kaalam": "முதுவேனில் காலம்",
-      "saka_year": "1948 ஜ்யேஷ்டம் 29"
+    gregorian_date: "19-06-2026",
+    day_of_week: "Friday",
+    tamil_month: "ஆனி",
+    tamil_year_name: "ஸ்ரீ பராபவ",
+    islamic_date: "முஹர்ரம் 3",
+    paksham: "சுக்ல பட்சம் (வளர்பிறை)",
+    thithi: "சதுர்த்தி (கா.12.38 வரை, பின்பு பஞ்சமி மா.11.03 வரை, பின்பு ஷஷ்டி)",
+    nakshatram: "ஆயில்யம் (மா.03.57 வரை, பின்பு மகம்)",
+    yogam: "மரண யோகம்",
+    shulam: "மேற்கு",
+    pariharam: "வெல்லம்",
+    surya_udayam: "5.54",
+    chandrashtamam: ["பூராடம்", "உத்திராடம்"],
+    timings: {
+      good_time: "9.30-10.30 (காலை), 4.30-5.30 (மாலை)",
+      gowri_good_time: "12.30-1.30 (மதியம்), 6.30-7.30 (மாலை)",
+      raahu_kaalam: "10.30 - 12.00",
+      kuligai: "07.30 - 09.00",
+      emagandam: "03.00 - 04.30"
     },
-    "timings": {
-      "good_time": "9.30-10.30 / 12.30-1.30",
-      "gowri_good_time": "4.30-5.30 / 6.30-7.30",
-      "raahu_kaalam": "10.30",
-      "kuligai": "07.30",
-      "emagandam": "03.00",
-      "sunrise": "5.54"
-    },
-    "shoolam": "மேற்கு",
-    "parihaaram": "வெல்லம்",
-    "chandrashtamam": ["பூராடம்", "உத்திராடம்"],
-    "daily_quote": "பேசிய பின் வருந்துவதை விட, பேசும் முன் யோசி",
-    "rasipalan": {
+    rasipalan: {
       "மேஷம்": "மறதி",
       "ரிஷபம்": "ஏமாற்றம்",
       "மிதுனம்": "பரிவு",
@@ -829,36 +703,29 @@ export const june2026Data = [
       "மீனம்": "பயம்"
     }
   },
-  // June 20
+  // 20 June 2026
   {
-    "gregorian_date": "20-06-2026",
-    "day_of_week": "Saturday",
-    "tamil_year": "ஸ்ரீ பராபவ",
-    "tamil_month": "ஆனி 6",
-    "islamic_date": "முஹர்ரம் 4",
-    "paksham": "சுக்ல பட்சம் (வளர்பிறை)",
-    "nakshatram": "மகம்",
-    "thithi": "ஷஷ்டி",
-    "special_day": "ஷஷ்டி விரதம், கரிநாள்",
-    "astrological_details": {
-      "ayanam": "உத்தராயணம்",
-      "ruthu": "கிரீஷ்ம ருது",
-      "kaalam": "முதுவேனில் காலம்",
-      "saka_year": "1948 ஜ்யேஷ்டம் 30"
+    gregorian_date: "20-06-2026",
+    day_of_week: "Saturday",
+    tamil_month: "ஆனி",
+    tamil_year_name: "ஸ்ரீ பராபவ",
+    islamic_date: "முஹர்ரம் 4",
+    paksham: "சுக்ல பட்சம் (வளர்பிறை)",
+    thithi: "ஷஷ்டி (மா.09.51 வரை, பின்பு ஸப்தமி)",
+    nakshatram: "மகம் (மா.03.23 வரை, பின்பு பூரம்)",
+    yogam: "அமிர்த யோகம் (மா.03.23 மேல் சித்த யோகம்)",
+    shulam: "கிழக்கு",
+    pariharam: "தயிர்",
+    surya_udayam: "5.54",
+    chandrashtamam: ["உத்திராடம்", "திருவோணம்"],
+    timings: {
+      good_time: "7.30-8.30 (காலை), 4.30-5.30 (மாலை)",
+      gowri_good_time: "10.30-11.30 (காலை), 9.30-10.30 (காலை)",
+      raahu_kaalam: "09.00 - 10.30",
+      kuligai: "06.00 - 07.30",
+      emagandam: "01.30 - 03.00"
     },
-    "timings": {
-      "good_time": "7.30-8.30 / 10.30-11.30",
-      "gowri_good_time": "4.30-5.30 / 9.30-10.30",
-      "raahu_kaalam": "09.00",
-      "kuligai": "06.00",
-      "emagandam": "01.30",
-      "sunrise": "5.54"
-    },
-    "shoolam": "கிழக்கு",
-    "parihaaram": "தயிர்",
-    "chandrashtamam": ["உத்திராடம்", "திருவோணம்"],
-    "daily_quote": "நல்லவனாக இருக்கலாம், ஏமாளியாக இருக்காதே",
-    "rasipalan": {
+    rasipalan: {
       "மேஷம்": "நன்மை",
       "ரிஷபம்": "தனம்",
       "மிதுனம்": "பயம்",
@@ -873,36 +740,29 @@ export const june2026Data = [
       "மீனம்": "அமைதி"
     }
   },
-  // June 21
+  // 21 June 2026
   {
-    "gregorian_date": "21-06-2026",
-    "day_of_week": "Sunday",
-    "tamil_year": "ஸ்ரீ பராபவ",
-    "tamil_month": "ஆனி 7",
-    "islamic_date": "முஹர்ரம் 5",
-    "paksham": "சுக்ல பட்சம் (வளர்பிறை)",
-    "nakshatram": "பூரம்",
-    "thithi": "ஸப்தமி",
-    "special_day": "ஆனி உத்திர அபிஷேகம்",
-    "astrological_details": {
-      "ayanam": "உத்தராயணம்",
-      "ruthu": "கிரீஷ்ம ருது",
-      "kaalam": "முதுவேனில் காலம்",
-      "saka_year": "1948 ஜ்யேஷ்டம் 31"
+    gregorian_date: "21-06-2026",
+    day_of_week: "Sunday",
+    tamil_month: "ஆனி",
+    tamil_year_name: "ஸ்ரீ பராபவ",
+    islamic_date: "முஹர்ரம் 5",
+    paksham: "சுக்ல பட்சம் (வளர்பிறை)",
+    thithi: "ஸப்தமி (மா.09.06 வரை, பின்பு அஷ்டமி)",
+    nakshatram: "பூரம் (மா.03.16 வரை, பின்பு உத்திரம்)",
+    yogam: "சித்த யோகம் (மா.03.16 மேல் அமிர்தயோகம்)",
+    shulam: "மேற்கு",
+    pariharam: "வெல்லம்",
+    surya_udayam: "5.54",
+    chandrashtamam: ["திருவோணம்", "அவிட்டம்"],
+    timings: {
+      good_time: "7.30-8.30 (காலை), 3.30-4.30 (மாலை)",
+      gowri_good_time: "10.30-11.30 (காலை), 1.30-2.30 (மதியம்)",
+      raahu_kaalam: "04.30 - 06.00",
+      kuligai: "03.00 - 04.30",
+      emagandam: "12.00 - 01.30"
     },
-    "timings": {
-      "good_time": "7.30-8.30 / 10.30-11.30",
-      "gowri_good_time": "3.30-4.30 / 1.30-2.30",
-      "raahu_kaalam": "04.30",
-      "kuligai": "03.00",
-      "emagandam": "12.00",
-      "sunrise": "5.54"
-    },
-    "shoolam": "மேற்கு",
-    "parihaaram": "வெல்லம்",
-    "chandrashtamam": ["திருவோணம்", "அவிட்டம்"],
-    "daily_quote": "முயற்சி கானல் நீரல்ல, அது வெற்றி எனும் ஜீவ நதி",
-    "rasipalan": {
+    rasipalan: {
       "மேஷம்": "பயம்",
       "ரிஷபம்": "லாபம்",
       "மிதுனம்": "வரவு",
@@ -917,36 +777,29 @@ export const june2026Data = [
       "மீனம்": "ஆர்வம்"
     }
   },
-  // June 22
+  // 22 June 2026
   {
-    "gregorian_date": "22-06-2026",
-    "day_of_week": "Monday",
-    "tamil_year": "ஸ்ரீ பராபவ",
-    "tamil_month": "ஆனி 8",
-    "islamic_date": "முஹர்ரம் 6",
-    "paksham": "சுக்ல பட்சம் (வளர்பிறை)",
-    "nakshatram": "உத்திரம்",
-    "thithi": "அஷ்டமி",
-    "special_day": "ஆனி உத்திர தரிசனம்",
-    "astrological_details": {
-      "ayanam": "உத்தராயணம்",
-      "ruthu": "கிரீஷ்ம ருது",
-      "kaalam": "முதுவேனில் காலம்",
-      "saka_year": "1948 ஆஷாடம் 01"
+    gregorian_date: "22-06-2026",
+    day_of_week: "Monday",
+    tamil_month: "ஆனி",
+    tamil_year_name: "ஸ்ரீ பராபவ",
+    islamic_date: "முஹர்ரம் 6",
+    paksham: "சுக்ல பட்சம் (வளர்பிறை)",
+    thithi: "அஷ்டமி (மா.08.49 வரை, பின்பு நவமி)",
+    nakshatram: "உத்திரம் (மா.03.35 வரை, பின்பு ஹஸ்தம்)",
+    yogam: "சித்த யோகம்",
+    shulam: "கிழக்கு",
+    pariharam: "தயிர்",
+    surya_udayam: "5.54",
+    chandrashtamam: ["அவிட்டம்", "சதயம்"],
+    timings: {
+      good_time: "6.30-7.30 (காலை), 4.30-5.30 (மாலை)",
+      gowri_good_time: "9.30-10.30 (காலை), 7.30-8.30 (மாலை)",
+      raahu_kaalam: "07.30 - 09.00",
+      kuligai: "01.30 - 03.00",
+      emagandam: "10.30 - 12.00"
     },
-    "timings": {
-      "good_time": "6.30-7.30 / 9.30-10.30",
-      "gowri_good_time": "4.30-5.30 / 7.30-8.30",
-      "raahu_kaalam": "07.30",
-      "kuligai": "01.30",
-      "emagandam": "10.30",
-      "sunrise": "5.54"
-    },
-    "shoolam": "கிழக்கு",
-    "parihaaram": "தயிர்",
-    "chandrashtamam": ["அவிட்டம்", "சதயம்"],
-    "daily_quote": "பசிக்கு உண்பவன் சுகவாசி, ருசிக்கு உண்பவன் நோயாளி",
-    "rasipalan": {
+    rasipalan: {
       "மேஷம்": "தனம்",
       "ரிஷபம்": "ஊக்கம்",
       "மிதுனம்": "சுகம்",
@@ -961,35 +814,29 @@ export const june2026Data = [
       "மீனம்": "சுபம்"
     }
   },
-  // June 23
+  // 23 June 2026
   {
-    "gregorian_date": "23-06-2026",
-    "day_of_week": "Tuesday",
-    "tamil_year": "ஸ்ரீ பராபவ",
-    "tamil_month": "ஆனி 9",
-    "islamic_date": "முஹர்ரம் 7",
-    "paksham": "சுக்ல பட்சம் (வளர்பிறை)",
-    "nakshatram": "ஹஸ்தம்",
-    "thithi": "நவமி",
-    "astrological_details": {
-      "ayanam": "உத்தராயணம்",
-      "ruthu": "கிரீஷ்ம ருது",
-      "kaalam": "முதுவேனில் காலம்",
-      "saka_year": "1948 ஆஷாடம் 02"
+    gregorian_date: "23-06-2026",
+    day_of_week: "Tuesday",
+    tamil_month: "ஆனி",
+    tamil_year_name: "ஸ்ரீ பராபவ",
+    islamic_date: "முஹர்ரம் 7",
+    paksham: "சுக்ல பட்சம் (வளர்பிறை)",
+    thithi: "நவமி (மா.09.03 வரை, பின்பு தசமி)",
+    nakshatram: "ஹஸ்தம் (மா.04.25 வரை, பின்பு சித்திரை)",
+    yogam: "சித்த யோகம்",
+    shulam: "வடக்கு",
+    pariharam: "பால்",
+    surya_udayam: "5.54",
+    chandrashtamam: ["சதயம்", "பூரட்டாதி"],
+    timings: {
+      good_time: "7.30-8.30 (காலை), 4.30-5.30 (மாலை)",
+      gowri_good_time: "10.30-11.30 (காலை), 7.30-8.30 (மாலை)",
+      raahu_kaalam: "03.00 - 04.30",
+      kuligai: "12.00 - 01.30",
+      emagandam: "09.00 - 10.30"
     },
-    "timings": {
-      "good_time": "7.30-8.30 / 10.30-11.30",
-      "gowri_good_time": "4.30-5.30 / 7.30-8.30",
-      "raahu_kaalam": "03.00",
-      "kuligai": "12.00",
-      "emagandam": "09.00",
-      "sunrise": "5.54"
-    },
-    "shoolam": "வடக்கு",
-    "parihaaram": "பால்",
-    "chandrashtamam": ["சதயம்", "பூரட்டாதி"],
-    "daily_quote": "நீண்ட தூரம் ஓடினால் தான் அதிக தூரம் தாண்ட முடியும்",
-    "rasipalan": {
+    rasipalan: {
       "மேஷம்": "இரக்கம்",
       "ரிஷபம்": "உதவி",
       "மிதுனம்": "இன்பம்",
@@ -1004,36 +851,29 @@ export const june2026Data = [
       "மீனம்": "உயர்வு"
     }
   },
-  // June 24
+  // 24 June 2026
   {
-    "gregorian_date": "24-06-2026",
-    "day_of_week": "Wednesday",
-    "tamil_year": "ஸ்ரீ பராபவ",
-    "tamil_month": "ஆனி 10",
-    "islamic_date": "முஹர்ரம் 8",
-    "paksham": "சுக்ல பட்சம் (வளர்பிறை)",
-    "nakshatram": "சித்திரை",
-    "thithi": "தசமி",
-    "special_day": "சுபமுகூர்த்தம், பாபஹரதசமி",
-    "astrological_details": {
-      "ayanam": "உத்தராயணம்",
-      "ruthu": "கிரீஷ்ம ருது",
-      "kaalam": "முதுவேனில் காலம்",
-      "saka_year": "1948 ஆஷாடம் 03"
+    gregorian_date: "24-06-2026",
+    day_of_week: "Wednesday",
+    tamil_month: "ஆனி",
+    tamil_year_name: "ஸ்ரீ பராபவ",
+    islamic_date: "முஹர்ரம் 8",
+    paksham: "சுக்ல பட்சம் (வளர்பிறை)",
+    thithi: "தசமி (மா.09.46 வரை, பின்பு ஏகாதசி)",
+    nakshatram: "சித்திரை (மா.05.45 வரை, பின்பு சுவாதி)",
+    yogam: "சித்த யோகம்",
+    shulam: "வடக்கு",
+    pariharam: "பால்",
+    surya_udayam: "5.54",
+    chandrashtamam: ["பூரட்டாதி", "உத்திரட்டாதி"],
+    timings: {
+      good_time: "9.30-10.30 (காலை), 4.30-5.30 (மாலை)",
+      gowri_good_time: "10.30-11.30 (காலை), 6.30-7.30 (மாலை)",
+      raahu_kaalam: "12.00 - 01.30",
+      kuligai: "10.30 - 12.00",
+      emagandam: "07.30 - 09.00"
     },
-    "timings": {
-      "good_time": "9.30-10.30 / 10.30-11.30",
-      "gowri_good_time": "4.30-5.30 / 6.30-7.30",
-      "raahu_kaalam": "01.30",
-      "kuligai": "12.00",
-      "emagandam": "09.00",
-      "sunrise": "5.54"
-    },
-    "shoolam": "வடக்கு",
-    "parihaaram": "பால்",
-    "chandrashtamam": ["பூரட்டாதி", "உத்திரட்டாதி"],
-    "daily_quote": "நிலவு போன்றது வாக்குறுதி, தேய்வதற்கு முன் நிறைவேற்று",
-    "rasipalan": {
+    rasipalan: {
       "மேஷம்": "அமைதி",
       "ரிஷபம்": "உயர்வு",
       "மிதுனம்": "சுகம்",
@@ -1048,36 +888,29 @@ export const june2026Data = [
       "மீனம்": "எதிர்ப்பு"
     }
   },
-  // June 25
+  // 25 June 2026
   {
-    "gregorian_date": "25-06-2026",
-    "day_of_week": "Thursday",
-    "tamil_year": "ஸ்ரீ பராபவ",
-    "tamil_month": "ஆனி 11",
-    "islamic_date": "முஹர்ரம் 9",
-    "paksham": "சுக்ல பட்சம் (வளர்பிறை)",
-    "nakshatram": "சுவாதி",
-    "thithi": "ஏகாதசி",
-    "special_day": "சுபமுகூர்த்தம், சர்வ ஏகாதசி",
-    "astrological_details": {
-      "ayanam": "உத்தராயணம்",
-      "ruthu": "கிரீஷ்ம ருது",
-      "kaalam": "முதுவேனில் காலம்",
-      "saka_year": "1948 ஆஷாடம் 04"
+    gregorian_date: "25-06-2026",
+    day_of_week: "Thursday",
+    tamil_month: "ஆனி",
+    tamil_year_name: "ஸ்ரீ பராபவ",
+    islamic_date: "முஹர்ரம் 9",
+    paksham: "சுக்ல பட்சம் (வளர்பிறை)",
+    thithi: "ஏகாதசி (மா.10.59 வரை, பின்பு துவாதசி)",
+    nakshatram: "சுவாதி (மா.07.33 வரை, பின்பு விசாகம்)",
+    yogam: "அமிர்த யோகம் (மா.07.33 மேல் சித்த யோகம்)",
+    shulam: "தெற்கு",
+    pariharam: "தைலம்",
+    surya_udayam: "5.55",
+    chandrashtamam: ["உத்திரட்டாதி", "ரேவதி"],
+    timings: {
+      good_time: "10.30-11.30 (காலை), 12.30-1.30 (மதியம்)",
+      gowri_good_time: "6.30-7.30 (மாலை)",
+      raahu_kaalam: "01.30 - 03.00",
+      kuligai: "09.00 - 10.30",
+      emagandam: "06.00 - 07.30"
     },
-    "timings": {
-      "good_time": "10.30-11.30",
-      "gowri_good_time": "12.30-1.30 / 6.30-7.30",
-      "raahu_kaalam": "01.30",
-      "kuligai": "09.00",
-      "emagandam": "06.00",
-      "sunrise": "5.55"
-    },
-    "shoolam": "தெற்கு",
-    "parihaaram": "தைலம்",
-    "chandrashtamam": ["உத்திரட்டாதி", "ரேவதி"],
-    "daily_quote": "வென்ற பிறகும் சமாதானம் பேசுபவனே வீரன்",
-    "rasipalan": {
+    rasipalan: {
       "மேஷம்": "அன்பு",
       "ரிஷபம்": "பேராசை",
       "மிதுனம்": "போட்டி",
@@ -1092,36 +925,29 @@ export const june2026Data = [
       "மீனம்": "பாசம்"
     }
   },
-  // June 26
+  // 26 June 2026
   {
-    "gregorian_date": "26-06-2026",
-    "day_of_week": "Friday",
-    "tamil_year": "ஸ்ரீ பராபவ",
-    "tamil_month": "ஆனி 12",
-    "islamic_date": "முஹர்ரம் 10",
-    "paksham": "சுக்ல பட்சம் (வளர்பிறை)",
-    "nakshatram": "விசாகம்",
-    "thithi": "துவாதசி",
-    "special_day": "மொஹரம் பண்டிகை, அரசு விடுமுறை",
-    "astrological_details": {
-      "ayanam": "உத்தராயணம்",
-      "ruthu": "கிரீஷ்ம ருது",
-      "kaalam": "முதுவேனில் காலம்",
-      "saka_year": "1948 ஆஷாடம் 05"
+    gregorian_date: "26-06-2026",
+    day_of_week: "Friday",
+    tamil_month: "ஆனி",
+    tamil_year_name: "ஸ்ரீ பராபவ",
+    islamic_date: "முஹர்ரம் 10",
+    paksham: "சுக்ல பட்சம் (வளர்பிறை)",
+    thithi: "துவாதசி (நாள் முழுவதும்)",
+    nakshatram: "விசாகம் (மா.09.41 வரை, பின்பு அனுஷம்)",
+    yogam: "சித்த யோகம்",
+    shulam: "மேற்கு",
+    pariharam: "வெல்லம்",
+    surya_udayam: "5.55",
+    chandrashtamam: ["ரேவதி", "அசுபதி"],
+    timings: {
+      good_time: "9.30-10.30 (காலை), 4.30-5.30 (மாலை)",
+      gowri_good_time: "12.30-1.30 (மதியம்), 6.30-7.30 (மாலை)",
+      raahu_kaalam: "10.30 - 12.00",
+      kuligai: "07.30 - 09.00",
+      emagandam: "03.00 - 04.30"
     },
-    "timings": {
-      "good_time": "9.30-10.30",
-      "gowri_good_time": "4.30-5.30 / 6.30-7.30",
-      "raahu_kaalam": "10.30",
-      "kuligai": "07.30",
-      "emagandam": "03.00",
-      "sunrise": "5.55"
-    },
-    "shoolam": "மேற்கு",
-    "parihaaram": "வெல்லம்",
-    "chandrashtamam": ["ரேவதி", "அசுபததி"],
-    "daily_quote": "யார் சொன்னாலும் கேள், உனக்கு சரியென பட்டால் செய்",
-    "rasipalan": {
+    rasipalan: {
       "மேஷம்": "ஏமாற்றம்",
       "ரிஷபம்": "வாழ்வு",
       "மிதுனம்": "சாந்தம்",
@@ -1136,36 +962,29 @@ export const june2026Data = [
       "மீனம்": "வரவு"
     }
   },
-  // June 27
+  // 27 June 2026
   {
-    "gregorian_date": "27-06-2026",
-    "day_of_week": "Saturday",
-    "tamil_year": "ஸ்ரீ பராபவ",
-    "tamil_month": "ஆனி 13",
-    "islamic_date": "முஹர்ரம் 11",
-    "paksham": "சுக்ல பட்சம் (வளர்பிறை)",
-    "nakshatram": "அனுஷம்",
-    "thithi": "திரயோதசி",
-    "special_day": "பிரதோஷம்",
-    "astrological_details": {
-      "ayanam": "உத்தராயணம்",
-      "ruthu": "கிரீஷ்ம ருது",
-      "kaalam": "முதுவேனில் காலம்",
-      "saka_year": "1948 ஆஷாடம் 06"
+    gregorian_date: "27-06-2026",
+    day_of_week: "Saturday",
+    tamil_month: "ஆனி",
+    tamil_year_name: "ஸ்ரீ பராபவ",
+    islamic_date: "முஹர்ரம் 11",
+    paksham: "சுக்ல பட்சம் (வளர்பிறை)",
+    thithi: "துவாதசி (கா.12.32 வரை, பின்பு திரயோதசி)",
+    nakshatram: "அனுஷம் (கா.12.07 வரை, பின்பு கேட்டை)",
+    yogam: "சித்த யோகம்",
+    shulam: "கிழக்கு",
+    pariharam: "தயிர்",
+    surya_udayam: "5.55",
+    chandrashtamam: ["அசுபதி", "பரணி"],
+    timings: {
+      good_time: "7.45-8.45 (காலை), 4.45-5.45 (மாலை)",
+      gowri_good_time: "10.45-11.45 (காலை), 9.30-10.30 (காலை)",
+      raahu_kaalam: "09.00 - 10.30",
+      kuligai: "06.00 - 07.30",
+      emagandam: "01.30 - 03.00"
     },
-    "timings": {
-      "good_time": "7.45-8.45",
-      "gowri_good_time": "4.45-5.45 / 9.30-10.30",
-      "raahu_kaalam": "09.00",
-      "kuligai": "06.00",
-      "emagandam": "01.30",
-      "sunrise": "5.55"
-    },
-    "shoolam": "கிழக்கு",
-    "parihaaram": "தயிர்",
-    "chandrashtamam": ["அசுபதி", "பரணி"],
-    "daily_quote": "விரைவில் மலரும் எதுவும் விரைவில் உதிரும்",
-    "rasipalan": {
+    rasipalan: {
       "மேஷம்": "ஆதரவு",
       "ரிஷபம்": "நிம்மதி",
       "மிதுனம்": "அனுகூலம்",
@@ -1180,35 +999,29 @@ export const june2026Data = [
       "மீனம்": "நட்பு"
     }
   },
-  // June 28
+  // 28 June 2026
   {
-    "gregorian_date": "28-06-2026",
-    "day_of_week": "Sunday",
-    "tamil_year": "ஸ்ரீ பராபவ",
-    "tamil_month": "ஆனி 14",
-    "islamic_date": "முஹர்ரம் 12",
-    "paksham": "சுக்ல பட்சம் (வளர்பிறை)",
-    "nakshatram": "கேட்டை",
-    "thithi": "சதுர்த்தசி",
-    "astrological_details": {
-      "ayanam": "உத்தராயணம்",
-      "ruthu": "கிரீஷ்ம ருது",
-      "kaalam": "முதுவேனில் காலம்",
-      "saka_year": "1948 ஆஷாடம் 07"
+    gregorian_date: "28-06-2026",
+    day_of_week: "Sunday",
+    tamil_month: "ஆனி",
+    tamil_year_name: "ஸ்ரீ பராபவ",
+    islamic_date: "முஹர்ரம் 12",
+    paksham: "சுக்ல பட்சம் (வளர்பிறை)",
+    thithi: "திரயோதசி (கா.02.21 வரை, பின்பு சதுர்த்தசி)",
+    nakshatram: "கேட்டை (கா.12.07 வரை, பின்பு மூலம்)",
+    yogam: "மரண யோகம் (கா.02.43 மேல் அமிர்தயோகம்)",
+    shulam: "மேற்கு",
+    pariharam: "வெல்லம்",
+    surya_udayam: "5.56",
+    chandrashtamam: ["கார்த்திகை"],
+    timings: {
+      good_time: "8.15-9.00 (காலை), 3.15-4.15 (மாலை)",
+      gowri_good_time: "10.45-11.45 (காலை), 1.30-2.30 (மதியம்)",
+      raahu_kaalam: "04.30 - 06.00",
+      kuligai: "03.00 - 04.30",
+      emagandam: "12.00 - 01.30"
     },
-    "timings": {
-      "good_time": "8.15-9.00 / 10.45-11.45",
-      "gowri_good_time": "3.15-4.15 / 1.30-2.30",
-      "raahu_kaalam": "04.30",
-      "kuligai": "03.00",
-      "emagandam": "12.00",
-      "sunrise": "5.56"
-    },
-    "shoolam": "மேற்கு",
-    "parihaaram": "வெல்லம்",
-    "chandrashtamam": ["கார்த்திகை"],
-    "daily_quote": "இரண்டு எஜமானிகள் வீடு, பெருக்காமல் இருக்கும்",
-    "rasipalan": {
+    rasipalan: {
       "மேஷம்": "தடங்கல்",
       "ரிஷபம்": "மகிழ்ச்சி",
       "மிதுனம்": "முயற்சி",
@@ -1223,36 +1036,29 @@ export const june2026Data = [
       "மீனம்": "நன்மை"
     }
   },
-  // June 29
+  // 29 June 2026
   {
-    "gregorian_date": "29-06-2026",
-    "day_of_week": "Monday",
-    "tamil_year": "ஸ்ரீ பராபவ",
-    "tamil_month": "ஆனி 15",
-    "islamic_date": "முஹர்ரம் 13",
-    "paksham": "பௌர்ணமி",
-    "nakshatram": "மூலம்",
-    "thithi": "பௌர்ணமி",
-    "special_day": "பௌர்ணமி, காரைக்கால் அம்மையார் மாங்கனித் திருவிழா",
-    "astrological_details": {
-      "ayanam": "உத்தராயணம்",
-      "ruthu": "கிரீஷ்ம ருது",
-      "kaalam": "முதுவேனில் காலம்",
-      "saka_year": "1948 ஆஷாடம் 08"
+    gregorian_date: "29-06-2026",
+    day_of_week: "Monday",
+    tamil_month: "ஆனி",
+    tamil_year_name: "ஸ்ரீ பராபவ",
+    islamic_date: "முஹர்ரம் 13",
+    paksham: "சுக்ல பட்சம் (பௌர்ணமி)",
+    thithi: "சதுர்த்தசி (கா.04.21 வரை, பின்பு பௌர்ணமி)",
+    nakshatram: "மூலம் (கா.02.43 வரை, பின்பு பூராடம்)",
+    yogam: "அமிர்த யோகம் (கா.05.16 மேல் சித்தயோகம்)",
+    shulam: "கிழக்கு",
+    pariharam: "தயிர்",
+    surya_udayam: "5.56",
+    chandrashtamam: ["ரோகிணி"],
+    timings: {
+      good_time: "6.15-7.15 (காலை), 4.45-5.45 (மாலை)",
+      gowri_good_time: "9.15-10.15 (காலை), 7.30-8.30 (மாலை)",
+      raahu_kaalam: "07.30 - 09.00",
+      kuligai: "01.30 - 03.00",
+      emagandam: "10.30 - 12.00"
     },
-    "timings": {
-      "good_time": "6.15-7.15 / 9.15-10.15",
-      "gowri_good_time": "4.45-5.45 / 7.30-8.30",
-      "raahu_kaalam": "07.30",
-      "kuligai": "01.30",
-      "emagandam": "10.30",
-      "sunrise": "5.56"
-    },
-    "shoolam": "கிழக்கு",
-    "parihaaram": "தயிர்",
-    "chandrashtamam": ["ரோகிணி"],
-    "daily_quote": "சந்தேகப்படு, ஏமாற்றபட மாட்டாய்",
-    "rasipalan": {
+    rasipalan: {
       "மேஷம்": "லாபம்",
       "ரிஷபம்": "ஆதரவு",
       "மிதுனம்": "புகழ்",
@@ -1267,35 +1073,29 @@ export const june2026Data = [
       "மீனம்": "தனம்"
     }
   },
-  // June 30
+  // 30 June 2026
   {
-    "gregorian_date": "30-06-2026",
-    "day_of_week": "Tuesday",
-    "tamil_year": "ஸ்ரீ பராபவ",
-    "tamil_month": "ஆனி 16",
-    "islamic_date": "முஹர்ரம் 14",
-    "paksham": "கிருஷ்ண பட்சம் (தேய்பிறை)",
-    "nakshatram": "பூராடம்",
-    "thithi": "பிரதமை",
-    "astrological_details": {
-      "ayanam": "உத்தராயணம்",
-      "ruthu": "கிரீஷ்ம ருது",
-      "kaalam": "முதுவேனில் காலம்",
-      "saka_year": "1948 ஆஷாடம் 09"
+    gregorian_date: "30-06-2026",
+    day_of_week: "Tuesday",
+    tamil_month: "ஆனி",
+    tamil_year_name: "ஸ்ரீ பராபவ",
+    islamic_date: "முஹர்ரம் 14",
+    paksham: "கிருஷ்ண பட்சம் (தேய்பிறை)",
+    thithi: "பௌர்ணமி (கா.06.11 வரை, பின்பு பிரதமை)",
+    nakshatram: "பூராடம் (கா.05.16 வரை, பின்பு உத்திராடம்)",
+    yogam: "சித்த யோகம்",
+    shulam: "வடக்கு",
+    pariharam: "பால்",
+    surya_udayam: "5.56",
+    chandrashtamam: ["மிருகசீருஷம்"],
+    timings: {
+      good_time: "7.45-8.45 (காலை), 2.00-3.00 (மதியம்)",
+      gowri_good_time: "10.45-11.45 (காலை), 7.30-8.30 (மாலை)",
+      raahu_kaalam: "03.00 - 04.30",
+      kuligai: "12.00 - 01.30",
+      emagandam: "09.00 - 10.30"
     },
-    "timings": {
-      "good_time": "7.45-8.45 / 10.45-11.45",
-      "gowri_good_time": "2.00-3.00 / 7.30-8.30",
-      "raahu_kaalam": "03.00",
-      "kuligai": "12.00",
-      "emagandam": "09.00",
-      "sunrise": "5.56"
-    },
-    "shoolam": "வடக்கு",
-    "parihaaram": "பால்",
-    "chandrashtamam": ["மிருகசீருஷம்"],
-    "daily_quote": "வேகமாய் ஓடும் குதிரை விரைவாக களைத்துப் போகும்",
-    "rasipalan": {
+    rasipalan: {
       "மேஷம்": "முன்னேற்றம்",
       "ரிஷபம்": "ஏமாற்றம்",
       "மிதுனம்": "அன்பு",

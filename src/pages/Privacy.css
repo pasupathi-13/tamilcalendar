@@ -1,0 +1,30 @@
+.privacy-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  background: var(--bg-body, #F0F4FA);
+  min-height: 100vh;
+}
+.privacy-container h1 {
+  text-align: center;
+  color: var(--primary, #1E3A8A);
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+}
+.privacy-content {
+  background: var(--bg-card, #FFFFFF);
+  border-radius: 24px;
+  padding: 2rem;
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--border, #E2E8F0);
+}
+.privacy-content p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+.copyright {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--text-secondary, #475569);
+}

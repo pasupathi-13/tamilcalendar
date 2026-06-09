@@ -13,7 +13,7 @@ const Header = () => {
       <div className="header-container">
         <div className="logo">
           <span className="logo-tamil">தமிழ் நாட்காட்டி</span>
-          <span className="logo-eng">Tamil Calendar</span>
+          <span className="logo-english">Tamil Calendar</span>
         </div>
         <nav className={`nav ${menuOpen ? 'active' : ''}`}>
           <NavLink to="/" end onClick={closeMenu} className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}>Home</NavLink>
