@@ -1,0 +1,231 @@
+/* ChandraDarisanam.css – based on your festivals page style */
+.festivals-container {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 24px 20px 48px;
+  background: var(--bg, #fff9f0);
+  min-height: 100vh;
+}
+
+.festivals-header {
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.festivals-header h1 {
+  color: var(--primary, #b45f06);
+  font-size: 2rem;
+  margin-bottom: 8px;
+  font-weight: 700;
+  letter-spacing: -0.3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.subhead {
+  color: #7e5a3a;
+  font-size: 0.95rem;
+  background: #fef3e0;
+  display: inline-block;
+  padding: 6px 18px;
+  border-radius: 60px;
+  margin-top: 6px;
+  font-weight: 500;
+}
+
+/* Filter buttons (city filter if reused, otherwise optional) */
+.filter-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 32px;
+  padding: 0;
+  list-style: none;
+}
+
+.filter-buttons button {
+  padding: 8px 22px;
+  border-radius: 40px;
+  border: 1px solid var(--border, #e0cba0);
+  background: var(--white, white);
+  color: var(--primary, #b45f06);
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s, transform 0.1s, box-shadow 0.2s;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  font-family: inherit;
+}
+
+.filter-buttons button.active {
+  background: var(--primary, #b45f06);
+  color: white;
+  border-color: var(--primary, #b45f06);
+  box-shadow: 0 4px 8px rgba(180, 95, 6, 0.2);
+}
+
+.filter-buttons button:active {
+  transform: scale(0.96);
+}
+
+/* Month group section */
+.month-group {
+  margin-bottom: 36px;
+}
+
+.month-group h2 {
+  background: var(--primary-light, #f5e6d3);
+  padding: 8px 22px;
+  border-radius: 48px;
+  color: var(--primary-dark, #8b5a2b);
+  font-size: 1.25rem;
+  margin-top: 0;
+  margin-bottom: 18px;
+  display: inline-block;
+  font-weight: 600;
+}
+
+/* List of cards */
+.festivals-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+/* Festival card (same as festivals) */
+.festival-card {
+  background: var(--white, white);
+  border-radius: 24px;
+  padding: 14px 18px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.04), 0 1px 2px rgba(0, 0, 0, 0.03);
+  border-left: 6px solid #e6b422;
+  transition: transform 0.2s ease, box-shadow 0.2s;
+}
+
+.festival-card:hover {
+  transform: translateX(4px);
+  box-shadow: 0 12px 22px rgba(0, 0, 0, 0.08);
+  background: #fffef7;
+}
+
+.festival-date {
+  font-size: 1.1rem;
+  font-weight: 700;
+  background: #fff4e6;
+  padding: 8px 14px;
+  border-radius: 40px;
+  min-width: 85px;
+  text-align: center;
+  color: #b1621a;
+  letter-spacing: -0.2px;
+}
+
+.festival-details {
+  flex: 1;
+}
+
+.festival-name {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #2c3e2f;
+  margin-bottom: 6px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.festival-day {
+  font-size: 0.82rem;
+  color: #6b4c2c;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: baseline;
+}
+
+/* Special style for moonrise time and duration */
+.moon-time {
+  background: #fef0df;
+  padding: 2px 8px;
+  border-radius: 30px;
+  font-weight: 500;
+  font-size: 0.75rem;
+  color: #b45f06;
+}
+
+.festival-type-badge {
+  font-size: 0.7rem;
+  padding: 5px 12px;
+  border-radius: 40px;
+  background: #f1e8d9;
+  color: #9b6a3c;
+  white-space: nowrap;
+  font-weight: 600;
+}
+
+/* Empty state */
+.no-festivals {
+  text-align: center;
+  padding: 48px 20px;
+  color: #a47c52;
+  font-size: 1rem;
+  background: #fff7ed;
+  border-radius: 48px;
+  margin-top: 20px;
+}
+
+/* Info note footer */
+.info-note {
+  text-align: center;
+  font-size: 0.75rem;
+  margin-top: 36px;
+  color: #b88b54;
+  border-top: 1px dashed #eedbba;
+  padding-top: 24px;
+}
+
+/* Mobile responsive */
+@media (max-width: 600px) {
+  .festivals-container {
+    padding: 18px 16px 40px;
+  }
+  .festivals-header h1 {
+    font-size: 1.7rem;
+  }
+  .filter-buttons button {
+    padding: 6px 16px;
+    font-size: 0.8rem;
+  }
+  .festival-card {
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 14px;
+  }
+  .festival-details {
+    min-width: calc(100% - 95px);
+  }
+  .festival-date {
+    min-width: 70px;
+    font-size: 0.95rem;
+    padding: 5px 10px;
+  }
+  .festival-type-badge {
+    margin-top: 6px;
+    width: auto;
+    display: inline-block;
+  }
+  .festival-name {
+    font-size: 0.95rem;
+  }
+}

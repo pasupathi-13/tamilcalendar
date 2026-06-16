@@ -118,14 +118,39 @@ function Home() {
       link: "/monthly",
       readMoreTa: "மாதங்களை பார்க்க →"
     },
+    // ✨ NEW: Chandra Darisanam card
     {
       id: 8,
+      titleTa: "சந்திர தரிசனம் 2026",
+      excerptTa: "அமாவாசைக்குப் பின் தெரியும் பிறைச்சந்திரனின் மங்கல தரிசன நேரங்கள். முழு விபரங்கள்.",
+      imageSrc: "/images/chandra-darisanam.png",  // make sure this image exists in public/images
+      link: "/chandra-darisanam",
+      readMoreTa: "தரிசன நேரங்களை காண்க →"
+    },
+    {
+      id: 9,
       titleTa: "ராசி பலன்",
       excerptTa: "கிரக நிலைகளின் அடிப்படையில் தினசரி ராசி கணிப்புகள்.",
       imageSrc: "/images/rasi-palan.png",
       link: "/daily",
       readMoreTa: "ராசி பலனை காண்க →"
-    }
+    },
+    {
+  id: 10,
+  titleTa: "அமாவாசை 2026",
+  excerptTa: "அமாவாசை தேதிகள், பித்ரு தர்ப்பணம் மற்றும் ஆன்மீக முக்கியத்துவம்.",
+  imageSrc: "/images/amavasai.png",
+  link: "/amavasai",
+  readMoreTa: "அமாவாசை தேதிகளை காண்க →"
+},
+{
+  id: 11,
+  titleTa: "பௌர்ணமி 2026",
+  excerptTa: "முழு நிலவு நாட்கள், விரதங்கள், விழாக்கள் மற்றும் சடங்குகள்.",
+  imageSrc: "/images/pournami.png",
+  link: "/pournami",
+  readMoreTa: "பௌர்ணமி தேதிகளை காண்க →"
+}
   ];
 
   const websiteSchema = {
@@ -144,23 +169,23 @@ function Home() {
         <title>Tamil Calendar 2026 | Today Tamil Calendar, Nalla Neram, Rahu Kalam</title>
         <meta 
           name="description" 
-          content={`இன்றைய தமிழ் தேதி: ${tamilDateInfo.fullString}. Online Tamil Calendar 2026 with Nalla Neram, Rahu Kalam, Daily Panchangam, Muhurtham Dates, and Tamil Nadu Government Holidays.`} 
+          content={`இன்றைய தமிழ் தேதி: ${tamilDateInfo.fullString}. Online Tamil Calendar 2026 with Nalla Neram, Rahu Kalam, Daily Panchangam, Muhurtham Dates, Chandra Darisanam, and Tamil Nadu Government Holidays.`} 
         />
         <meta 
           name="keywords" 
-          content="Tamil Calendar 2026, தமிழ் காலண்டர் 2026, Today Tamil Calendar, Nalla Neram Today, Rahu Kalam Today, Tamil Panchangam, Tamil Festivals, Muhurtham Dates, Tamil Nadu Holidays" 
+          content="Tamil Calendar 2026, தமிழ் காலண்டர் 2026, Today Tamil Calendar, Nalla Neram Today, Rahu Kalam Today, Tamil Panchangam, Tamil Festivals, Muhurtham Dates, Chandra Darisanam 2026, Tamil Nadu Holidays" 
         />
         <link rel="canonical" href="https://tamilcalendar.vercel.app/" />
         
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="ta_IN" />
         <meta property="og:title" content="Tamil Calendar 2026 | Today Tamil Calendar & Panchangam" />
-        <meta property="og:description" content={`இன்றைய தேதி: ${tamilDateInfo.fullString}. Daily Tamil Calendar with Nalla Neram, Rahu Kalam, Festivals, Holidays and Panchangam.`} />
+        <meta property="og:description" content={`இன்றைய தேதி: ${tamilDateInfo.fullString}. Daily Tamil Calendar with Nalla Neram, Rahu Kalam, Festivals, Holidays, Chandra Darisanam and Panchangam.`} />
         <meta property="og:url" content="https://tamilcalendar.vercel.app/" />
         
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Tamil Calendar 2026" />
-        <meta name="twitter:description" content="Get precise daily Tamil dates, Nalla Neram, Rahu Kalam updates, and full Panchangam info." />
+        <meta name="twitter:description" content="Get precise daily Tamil dates, Nalla Neram, Rahu Kalam, Chandra Darshan timings, and full Panchangam info." />
         
         <script type="application/ld+json">
           {JSON.stringify(websiteSchema)}
@@ -185,7 +210,6 @@ function Home() {
         <div className="blog-grid">
           {features.map((feature) => (
             <article key={feature.id} className="blog-card">
-              {/* Clickable image */}
               <Link to={feature.link} className="blog-image-link">
                 <div className="blog-icon">
                   <img 
@@ -224,8 +248,8 @@ function Home() {
         <p>
           திருமண முகூர்த்த நாட்கள், அரசு விடுமுறைகள்,
           தமிழர் திருநாட்களான பொங்கல், தீபாவளி, கார்த்திகை தீபம், அமாவாசை, பௌர்ணமி,
-          பிரதோஷம், ஏகாதசி மற்றும் முக்கிய ஆன்மீக வழிபாட்டு நாட்கள்
-          பற்றிய விரிவான தகவல்களையும் இங்கு எளிதாக அறிந்து கொள்ளலாம்.
+          பிரதோஷம், ஏகாதசி, <strong>சந்திர தரிசனம் (Chandra Darisanam)</strong> மற்றும் 
+          முக்கிய ஆன்மீக வழிபாட்டு நாட்கள் பற்றிய விரிவான தகவல்களையும் இங்கு எளிதாக அறிந்து கொள்ளலாம்.
         </p>
 
         <h3>தமிழ் காலண்டர் முதன்மை சிறப்பம்சங்கள்:</h3>
@@ -236,6 +260,7 @@ function Home() {
           <li>சுப முகூர்த்த நாட்கள் (2026 & 2027)</li>
           <li>தமிழ்நாடு அரசு பொது விடுமுறை பட்டியல் 2026</li>
           <li>ராசி வாரியான தினசரி சந்திராஷ்டமம் விபரங்கள்</li>
+          <li>சந்திர தரிசனம் 2026 – பிறைச் சந்திரனைக் காணும் நேரங்கள் (Chandra Darshan 2026)</li>
           <li>மாதாந்திர தமிழ் காலண்டர் மற்றும் தினசரி ராசி பலன்</li>
         </ul>
       </article>

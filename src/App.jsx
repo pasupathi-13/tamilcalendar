@@ -12,7 +12,9 @@ import Holidays from './pages/Holidays';
 import Chandrashtamam from './pages/Chandrashtamam';
 import About from './pages/About';
 import Privacy from './pages/Privacy';
-
+import ChandraDarisanam from './pages/ChandraDarisanam';
+import Amavasai from './pages/Amavasai';
+import Pournami from './pages/Pournami';
 function App() {
   return (
     <>
@@ -30,11 +32,14 @@ function App() {
           <Route path="/chandrashtamam" element={<Chandrashtamam />} />
           <Route path="/about" element={<About />} />
           <Route path="/privacy" element={<Privacy />} />
+          <Route path="/amavasai" element={<Amavasai />} />
+          <Route path="/pournami" element={<Pournami />} />
+          {/* ✅ Route for Chandra Darisanam */}
+          <Route path="/chandra-darisanam" element={<ChandraDarisanam />} />
         </Routes>
       </main>
       <Footer />
     </>
   );
 }
-
 export default App;

@@ -1,13 +1,10 @@
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import './Header.css';
-
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-
   const toggleMenu = () => setMenuOpen(!menuOpen);
   const closeMenu = () => setMenuOpen(false);
-
   return (
     <header className="header">
       <div className="header-container">
@@ -30,5 +27,4 @@ const Header = () => {
     </header>
   );
 };
-
 export default Header;
