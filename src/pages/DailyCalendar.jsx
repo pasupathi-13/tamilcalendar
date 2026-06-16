@@ -83,7 +83,7 @@ function DailyCalendar() {
     "@type": "Article",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": `https://tamilcalendars.vercel.app/daily?date=${parsedDateInfo.isoString}`
+      "@id": `https://tamilcalendar-c0q6.onrender.com/daily?date=${parsedDateInfo.isoString}`
     },
     "headline": `${parsedDateInfo.formattedDate} தினசரி நாட்காட்டி பஞ்சாங்கம் மற்றும் ராசி பலன்`,
     "description": `இன்றைய பஞ்சாங்கம் விபரங்கள்: திதி: ${currentDay.thithi}, நட்சத்திரம்: ${currentDay.nakshatram}, நல்ல நேரம்: ${currentDay.timings?.good_time}, ராகு காலம்: ${currentDay.timings?.raahu_kaalam}.`,
@@ -98,7 +98,7 @@ function DailyCalendar() {
       "name": "Tamil Calendar",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://tamilcalendars.vercel.app/logo.png"
+        "url": "https://tamilcalendar-c0q6.onrender.com/logo.png"
       }
     }
   };
@@ -116,13 +116,13 @@ function DailyCalendar() {
           name="keywords" 
           content={`${parsedDateInfo.formattedDate} நாட்காட்டி, இன்றைய நல்ல நேரம், ராகு காலம், இன்றைய பஞ்சாங்கம், இன்றைய ராசி பலன், Today Tamil Calendar, Panchangam Today, Rasipalan`} 
         />
-        <link rel="canonical" href="https://tamilcalendars.vercel.app/daily" />
+        <link rel="canonical" href="https://tamilcalendar-c0q6.onrender.com/daily" />
         
         {/* Open Graph Meta Blocks */}
         <meta property="og:type" content="article" />
         <meta property="og:title" content={`${parsedDateInfo.formattedDate} தமிழ் நாட்காட்டி | தினசரி பஞ்சாங்கம்`} />
         <meta property="og:description" content={`இன்றைய நல்ல நேரம், இராகு காலம், திதி, நட்சத்திர விபரங்கள் மற்றும் 12 ராசிகளின் தினசரி ராசி பலன்கள்.`} />
-        <meta property="og:url" content="https://tamilcalendars.vercel.app/daily" />
+        <meta property="og:url" content="https://tamilcalendar-c0q6.onrender.com/daily" />
 
         {/* Dynamic Schema Engine Injection */}
         <script type="application/ld+json">

@@ -158,7 +158,7 @@ function Home() {
     "@type": "WebSite",
     "name": "Tamil Calendar 2026",
     "description": `இன்றைய தமிழ் தேதி: ${tamilDateInfo.fullString}. தினசரி தமிழ் நாட்காட்டி மற்றும் பஞ்சாங்கம் மாதாந்திர விபரங்களுடன்.`,
-    "url": "https://tamilcalendars.vercel.app/",
+    "url": "https://tamilcalendar-c0q6.onrender.com/",
     "inLanguage": ["ta-IN", "en-US"]
   };
 
@@ -175,13 +175,13 @@ function Home() {
           name="keywords" 
           content="Tamil Calendar 2026, தமிழ் காலண்டர் 2026, Today Tamil Calendar, Nalla Neram Today, Rahu Kalam Today, Tamil Panchangam, Tamil Festivals, Muhurtham Dates, Chandra Darisanam 2026, Tamil Nadu Holidays" 
         />
-        <link rel="canonical" href="https://tamilcalendars.vercel.app/" />
+        <link rel="canonical" href="https://tamilcalendar-c0q6.onrender.com/" />
         
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="ta_IN" />
         <meta property="og:title" content="Tamil Calendar 2026 | Today Tamil Calendar & Panchangam" />
         <meta property="og:description" content={`இன்றைய தேதி: ${tamilDateInfo.fullString}. Daily Tamil Calendar with Nalla Neram, Rahu Kalam, Festivals, Holidays, Chandra Darisanam and Panchangam.`} />
-        <meta property="og:url" content="https://tamilcalendars.vercel.app/" />
+        <meta property="og:url" content="https://tamilcalendar-c0q6.onrender.com/" />
         
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Tamil Calendar 2026" />

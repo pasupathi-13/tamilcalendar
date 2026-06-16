@@ -130,13 +130,13 @@ function Festivals() {
         <title>{seoContent.title}</title>
         <meta name="description" content={seoContent.desc} />
         <meta name="keywords" content={seoContent.keys} />
-        <link rel="canonical" href={`https://tamilcalendars.vercel.app/festivals?type=${selectedReligion}`} />
+        <link rel="canonical" href={`https://tamilcalendar-c0q6.onrender.com/festivals?type=${selectedReligion}`} />
         
         {/* Open Graph Meta Platforms tags */}
         <meta property="og:type" content="article" />
         <meta property="og:title" content={seoContent.title} />
         <meta property="og:description" content={seoContent.desc} />
-        <meta property="og:url" content="https://tamilcalendars.vercel.app/festivals" />
+        <meta property="og:url" content="https://tamilcalendar-c0q6.onrender.com/festivals" />
         
         <script type="application/ld+json">
           {JSON.stringify(structuralSchema)}

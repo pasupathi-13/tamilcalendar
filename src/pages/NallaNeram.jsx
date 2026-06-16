@@ -84,7 +84,7 @@ function NallaNeram() {
     "datePublished": dateCalculations.seoIsoDate,
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": `https://tamilcalendars.vercel.app/nalla-neram?date=${dateCalculations.seoIsoDate}`
+      "@id": `https://tamilcalendar-c0q6.onrender.com/nalla-neram?date=${dateCalculations.seoIsoDate}`
     }
   };
 
@@ -101,7 +101,7 @@ function NallaNeram() {
           name="keywords" 
           content="இன்றைய நல்ல நேரம், கௌரி நல்ல நேரம், ராகு காலம், எமகண்டம், குளிகை, இன்றைய சூலம், Daily Nalla Neram, Gowri Nalla Neram, Raahu Kaalam" 
         />
-        <link rel="canonical" href="https://tamilcalendars.vercel.app/nalla-neram" />
+        <link rel="canonical" href="https://tamilcalendar-c0q6.onrender.com/nalla-neram" />
         
         {/* Open Graph Context Configuration Elements */}
         <meta property="og:type" content="article" />

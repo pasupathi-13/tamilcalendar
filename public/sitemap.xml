@@ -1,79 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://tamilcalendars.vercel.app/</loc>
+    <loc>https://tamilcalendar-c0q6.onrender.com/</loc>
     <lastmod>2026-06-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.00</priority>
   </url>
   <url>
-    <loc>https://tamilcalendars.vercel.app/daily</loc>
+    <loc>https://tamilcalendar-c0q6.onrender.com/daily</loc>
     <lastmod>2026-06-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
-    <loc>https://tamilcalendars.vercel.app/nalla-neram</loc>
+    <loc>https://tamilcalendar-c0q6.onrender.com/nalla-neram</loc>
     <lastmod>2026-06-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
-    <loc>https://tamilcalendars.vercel.app/monthly</loc>
+    <loc>https://tamilcalendar-c0q6.onrender.com/monthly</loc>
     <lastmod>2026-06-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://tamilcalendars.vercel.app/muhurtham</loc>
+    <loc>https://tamilcalendar-c0q6.onrender.com/muhurtham</loc>
     <lastmod>2026-06-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://tamilcalendars.vercel.app/festivals</loc>
+    <loc>https://tamilcalendar-c0q6.onrender.com/festivals</loc>
     <lastmod>2026-06-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://tamilcalendars.vercel.app/holidays</loc>
+    <loc>https://tamilcalendar-c0q6.onrender.com/holidays</loc>
     <lastmod>2026-06-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://tamilcalendars.vercel.app/chandrashtamam</loc>
+    <loc>https://tamilcalendar-c0q6.onrender.com/chandrashtamam</loc>
     <lastmod>2026-06-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://tamilcalendars.vercel.app/about</loc>
+    <loc>https://tamilcalendar-c0q6.onrender.com/about</loc>
     <lastmod>2026-06-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.50</priority>
   </url>
   <url>
-    <loc>https://tamilcalendars.vercel.app/privacy</loc>
+    <loc>https://tamilcalendar-c0q6.onrender.com/privacy</loc>
     <lastmod>2026-06-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.30</priority>
   </url>
   <url>
-    <loc>https://tamilcalendars.vercel.app/amavasai</loc>
+    <loc>https://tamilcalendar-c0q6.onrender.com/amavasai</loc>
     <lastmod>2026-06-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://tamilcalendars.vercel.app/pournami</loc>
+    <loc>https://tamilcalendar-c0q6.onrender.com/pournami</loc>
     <lastmod>2026-06-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://tamilcalendars.vercel.app/chandra-darisanam</loc>
+    <loc>https://tamilcalendar-c0q6.onrender.com/chandra-darisanam</loc>
     <lastmod>2026-06-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.80</priority>

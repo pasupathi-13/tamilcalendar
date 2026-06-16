@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://tamilcalendars.vercel.app/sitemap.xml
+Sitemap: https://tamilcalendar-c0q6.onrender.com/sitemap.xml
