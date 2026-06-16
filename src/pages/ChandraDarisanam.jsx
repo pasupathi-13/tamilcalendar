@@ -57,7 +57,7 @@ const ChandraDarisanam = () => {
       <Helmet>
         <title>Chandra Darisanam 2026 | சந்திர தரிசனம் | Tamil Calendar</title>
         <meta name="description" content="Chandra Darisanam 2026 dates and moonrise timings. Auspicious crescent moon sighting dates for all months in 2026." />
-        <link rel="canonical" href="https://tamilcalendar.vercel.app/chandra-darisanam" />
+        <link rel="canonical" href="https://tamilcalendars.vercel.app/chandra-darisanam" />
       </Helmet>
 
       <div className="festivals-header">

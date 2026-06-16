@@ -104,14 +104,14 @@ function Muhurtham() {
     "description": `${selectedYear} ஆம் ஆண்டின் சுப முகூர்த்த மற்றும் திருமண தேதிகளின் முழுமையான பட்டியல் நேரங்களுடன்.`,
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": `https://tamilcalendar.vercel.app/muhurtham?year=${selectedYear}`
+      "@id": `https://tamilcalendars.vercel.app/muhurtham?year=${selectedYear}`
     },
     "publisher": {
       "@type": "Organization",
       "name": "Tamil Calendar",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://tamilcalendar.vercel.app/logo.png"
+        "url": "https://tamilcalendars.vercel.app/logo.png"
       }
     }
   };
@@ -129,13 +129,13 @@ function Muhurtham() {
           name="keywords" 
           content={`திருமண முகூர்த்த தேதிகள் ${selectedYear}, சுப முகூர்த்த நாட்கள், முகூர்த்த நேரம், காலண்டர் திருமண நாட்கள், Tamil Muhurtham Dates, Subha Muhurtham ${selectedYear}`} 
         />
-        <link rel="canonical" href="https://tamilcalendar.vercel.app/muhurtham" />
+        <link rel="canonical" href="https://tamilcalendars.vercel.app/muhurtham" />
         
         {/* Open Graph Context Configurations */}
         <meta property="og:type" content="article" />
         <meta property="og:title" content={`திருமண முகூர்த்த தேதிகள் ${selectedYear} | தமிழ் நாட்காட்டி சுப நாட்கள்`} />
         <meta property="og:description" content={`${selectedYear} ஆம் ஆண்டிற்கான மாதாந்திர திருமண சுப முகூர்த்த தேதிகள் மற்றும் வளர்பிறை, தேய்பிறை விபரங்கள்.`} />
-        <meta property="og:url" content="https://tamilcalendar.vercel.app/muhurtham" />
+        <meta property="og:url" content="https://tamilcalendars.vercel.app/muhurtham" />
 
         {/* Dynamic Structural Engine Injection */}
         <script type="application/ld+json">

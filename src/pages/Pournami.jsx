@@ -11,7 +11,7 @@ const Pournami = () => {
       <Helmet>
         <title>Pournami 2026 Dates | Full Moon Days | Tamil Calendar</title>
         <meta name="description" content="Complete list of Pournami (Full Moon) dates in 2026. Auspicious for fasting, festivals, and special prayers." />
-        <link rel="canonical" href="https://tamilcalendar.vercel.app/pournami" />
+        <link rel="canonical" href="https://tamilcalendars.vercel.app/pournami" />
       </Helmet>
 
       <div className="festivals-header">

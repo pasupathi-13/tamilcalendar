@@ -54,7 +54,7 @@ function MonthlyCalendar() {
     "@type": "ImageGallery",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://tamilcalendar.vercel.app/monthly"
+      "@id": "https://tamilcalendars.vercel.app/monthly"
     },
     "name": `தமிழ் மாதாந்திர நாட்காட்டி ${currentYear} | Monthly Tamil Calendar`,
     "description": `${currentYear} ஆம் ஆண்டின் 12 மாதங்களுக்கான முழுமையான தமிழ் நாட்காட்டி பக்கங்களின் தொகுப்பு.`,
@@ -63,7 +63,7 @@ function MonthlyCalendar() {
       "name": "Tamil Calendar",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://tamilcalendar.vercel.app/logo.png"
+        "url": "https://tamilcalendars.vercel.app/logo.png"
       }
     }
   };
@@ -81,13 +81,13 @@ function MonthlyCalendar() {
           name="keywords" 
           content={`மாதாந்திர நாட்காட்டி ${currentYear}, தமிழ் காலண்டர் மாதங்கள், ஜனவரி 2026 காலண்டர், ஜூன் 2026 நாட்காட்டி, Monthly Tamil Calendar 2026, Tamil Calendar Sheets`} 
         />
-        <link rel="canonical" href="https://tamilcalendar.vercel.app/monthly" />
+        <link rel="canonical" href="https://tamilcalendars.vercel.app/monthly" />
         
         {/* Open Graph Context Nodes */}
         <meta property="og:type" content="article" />
         <meta property="og:title" content={`மாதாந்திர நாட்காட்டி ${currentYear} | தமிழ் மாதங்கள் காலண்டர்`} />
         <meta property="og:description" content={`2026 ஆம் ஆண்டின் 12 மாதங்களுக்கான முழுமையான தமிழ் நாட்காட்டி புகைப்படங்களின் தெளிவான தொகுப்பு.`} />
-        <meta property="og:url" content="https://tamilcalendar.vercel.app/monthly" />
+        <meta property="og:url" content="https://tamilcalendars.vercel.app/monthly" />
 
         {/* Structural Schema Graph Injection */}
         <script type="application/ld+json">

@@ -42,7 +42,7 @@
 ### Step 1: Verify Your Website
 1. Go to [Google Search Console](https://search.google.com/search-console/)
 2. Click "Add a property"
-3. Choose "URL prefix" and enter: `https://tamilcalendar.vercel.app/`
+3. Choose "URL prefix" and enter: `https://tamilcalendars.vercel.app/`
 4. Verify using one of these methods:
    - **HTML file upload**: Rename `google verification file.txt` to `googleXXXXXXXXXXXXXXXX.html` (replace with your verification code)
    - **Meta tag**: Replace `YOUR_VERIFICATION_CODE_HERE` in index.html line 16 with your actual verification code
@@ -57,7 +57,7 @@
 
 ### Step 3: Request Indexing
 1. Go to "URL Inspection" in Search Console
-2. Enter your homepage URL: `https://tamilcalendar.vercel.app/`
+2. Enter your homepage URL: `https://tamilcalendars.vercel.app/`
 3. Click "Request Indexing"
 4. Repeat for important pages:
    - festivals.html
@@ -178,7 +178,7 @@ Add to your server configuration:
 
 ## ⚠️ Important Notes
 
-1. **Replace Placeholder URLs**: Update all `https://tamilcalendar.vercel.app/` URLs with your actual domain
+1. **Replace Placeholder URLs**: Update all `https://tamilcalendars.vercel.app/` URLs with your actual domain
 2. **Update Verification Code**: Replace `YOUR_VERIFICATION_CODE_HERE` with actual Google verification code
 3. **Create Images**: Add OG images, logo, and favicon
 4. **Test Locally First**: Test all changes on a staging environment before deploying to production

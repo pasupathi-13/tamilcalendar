@@ -80,13 +80,13 @@ function Holidays() {
           name="keywords" 
           content="Tamil Nadu Government Holidays 2026, TN Government Holidays 2026, 2026 அரசு விடுமுறை நாட்கள், Tamil Calendar Holidays 2026, Public Holidays Tamil Nadu" 
         />
-        <link rel="canonical" href="https://tamilcalendar.vercel.app/holidays" />
+        <link rel="canonical" href="https://tamilcalendars.vercel.app/holidays" />
         
         {/* Open Graph Tags for Social Optimization */}
         <meta property="og:type" content="article" />
         <meta property="og:title" content="Tamil Nadu Government Holidays 2026 | Full List" />
         <meta property="og:description" content="Check the complete list of public and bank holidays released by the TN Govt for 2026 with accurate festival dates." />
-        <meta property="og:url" content="https://tamilcalendar.vercel.app/holidays" />
+        <meta property="og:url" content="https://tamilcalendars.vercel.app/holidays" />
         
         {/* JSON-LD Schema Injection */}
         <script type="application/ld+json">

@@ -71,7 +71,7 @@ function Chandrashtamam() {
     "@type": "ItemPage",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": `https://tamilcalendar.vercel.app/chandrashtamam?rasi=${selectedRasi}`
+      "@id": `https://tamilcalendars.vercel.app/chandrashtamam?rasi=${selectedRasi}`
     },
     "name": `${rasiNameTamil} சந்திராஷ்டமம் நாட்கள் ${currentYear}`,
     "description": `2026 ஆம் ஆண்டிற்கான ${rasiNameTamil} ராசி சந்திராஷ்டமம் தொடங்கும் மற்றும் முடியும் நேரங்கள் பட்டியல்.`,
@@ -80,7 +80,7 @@ function Chandrashtamam() {
       "name": "Tamil Calendar",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://tamilcalendar.vercel.app/logo.png"
+        "url": "https://tamilcalendars.vercel.app/logo.png"
       }
     }
   };
@@ -98,13 +98,13 @@ function Chandrashtamam() {
           name="keywords" 
           content={`${rasiNameTamil} சந்திராஷ்டமம் 2026, மாதாந்திர சந்திராஷ்டமம் நாட்கள், இன்றைய சந்திராஷ்டமம், Tamil Calendar Chandrashtamam 2026, Chandrashtamam Dates`} 
         />
-        <link rel="canonical" href="https://tamilcalendar.vercel.app/chandrashtamam" />
+        <link rel="canonical" href="https://tamilcalendars.vercel.app/chandrashtamam" />
         
         {/* Open Graph Meta Nodes */}
         <meta property="og:type" content="article" />
         <meta property="og:title" content={`${rasiNameTamil} சந்திராஷ்டமம் நாட்கள் 2026 | தமிழ் நாட்காட்டி`} />
         <meta property="og:description" content={`2026 ஆம் ஆண்டின் ${rasiNameTamil} ராசி மாதாந்திர சந்திராஷ்டமம் தொடக்க மற்றும் முடிவு நேரங்களின் துல்லியமான தொகுப்பு.`} />
-        <meta property="og:url" content="https://tamilcalendar.vercel.app/chandrashtamam" />
+        <meta property="og:url" content="https://tamilcalendars.vercel.app/chandrashtamam" />
 
         {/* Dynamic Schema Engine Injection */}
         <script type="application/ld+json">
