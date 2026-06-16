@@ -1,10 +1,7 @@
-// src/pages/ChandraDarisanam.jsx
 import React, { useMemo } from 'react';
+import { Helmet } from 'react-helmet-async';
 import './ChandraDarisanam.css';
-// Reuse your existing festivals CSS (same classes)
-import './ChandraDarisanam.css'; // optional – or import global styles
 
-// ---------- 2026 Chandra Darshan Data (exactly as provided) ----------
 const chandraDataset = [
   { date: "2026-01-20", day: "Tuesday", moonriseStart: "05:50 PM", moonriseEnd: "07:16 PM", duration: "1 Hour 25 Mins", tithi: "Pratipada", special: "" },
   { date: "2026-02-18", day: "Wednesday", moonriseStart: "06:13 PM", moonriseEnd: "07:05 PM", duration: "0 Hours 52 Mins", tithi: "Pratipada", special: "" },
@@ -20,29 +17,25 @@ const chandraDataset = [
   { date: "2026-12-10", day: "Thursday", moonriseStart: "05:25 PM", moonriseEnd: "06:16 PM", duration: "0 Hours 51 Mins", tithi: "Pratipada", special: "" }
 ];
 
-// Helper: format date to "Jan 20"
 const formatDateShort = (dateStr) => {
   const d = new Date(dateStr);
   if (isNaN(d.getTime())) return dateStr;
   return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
 };
 
-// Helper: get month + year for grouping
 const getMonthYearKey = (dateStr) => {
   const d = new Date(dateStr);
   return d.toLocaleDateString('en-US', { month: 'long', year: 'numeric' });
 };
 
-// Helper: sortable month key (YYYY-MM)
 const getSortableMonth = (dateStr) => {
   const d = new Date(dateStr);
   return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}`;
 };
 
 const ChandraDarisanam = () => {
-  // Group data by month-year and sort chronologically
   const groupedData = useMemo(() => {
-    const groups = new Map(); // key: monthTitle, value: { items, sortKey }
+    const groups = new Map();
     chandraDataset.forEach(entry => {
       const monthTitle = getMonthYearKey(entry.date);
       const sortKey = getSortableMonth(entry.date);
@@ -51,7 +44,6 @@ const ChandraDarisanam = () => {
       }
       groups.get(monthTitle).items.push(entry);
     });
-    // Sort groups by sortKey
     return Array.from(groups.entries())
       .sort((a, b) => a[1].sortKey.localeCompare(b[1].sortKey))
       .map(([monthTitle, { items }]) => ({
@@ -62,6 +54,12 @@ const ChandraDarisanam = () => {
 
   return (
     <div className="festivals-container">
+      <Helmet>
+        <title>Chandra Darisanam 2026 | சந்திர தரிசனம் | Tamil Calendar</title>
+        <meta name="description" content="Chandra Darisanam 2026 dates and moonrise timings. Auspicious crescent moon sighting dates for all months in 2026." />
+        <link rel="canonical" href="https://tamilcalendar.vercel.app/chandra-darisanam" />
+      </Helmet>
+
       <div className="festivals-header">
         <h1>🌙 Chandra Darisanam 2026 ✨</h1>
         <div className="subhead">
@@ -91,7 +89,7 @@ const ChandraDarisanam = () => {
                         <div className="festival-day">
                           <span>📅 {item.day}</span>
                           <span className="moon-time">
-                            🌙 Moonrise: {moonTimeRange}  ·  ⏱️ {item.duration}
+                            🌙 Moonrise: {moonTimeRange} · ⏱️ {item.duration}
                           </span>
                         </div>
                       </div>

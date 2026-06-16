@@ -60,4 +60,22 @@
     <changefreq>yearly</changefreq>
     <priority>0.30</priority>
   </url>
+  <url>
+    <loc>https://tamilcalendar.vercel.app/amavasai</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://tamilcalendar.vercel.app/pournami</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://tamilcalendar.vercel.app/chandra-darisanam</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
 </urlset>

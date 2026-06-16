@@ -3,6 +3,11 @@ import './About.css';
 function About() {
   return (
     <div className="about-container">
+        <Helmet>
+        <title>About Tamil Calendar 2026 | பற்றி</title>
+        <meta name="description" content="About Tamil Calendar 2026 - A complete Tamil panchangam app with daily timings, festivals, holidays, and muhurtham dates." />
+        <link rel="canonical" href="https://tamilcalendar.vercel.app/about" />
+      </Helmet>
       <h1>📖 பற்றி | About</h1>
       <div className="about-content">
         <p>
